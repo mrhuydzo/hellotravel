@@ -1,0 +1,21 @@
+{
+  "name": "bukit",
+  "version": "1.0.0",
+  "description": "bukit",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-cli": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

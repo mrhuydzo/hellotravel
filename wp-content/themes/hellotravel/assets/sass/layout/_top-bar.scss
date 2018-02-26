@@ -1,0 +1,12 @@
+.topbar {background: #000;font-size: 13px;min-height: 35px;line-height: 35px;color: #fff;text-align: right;
+  .topbar_info {}
+  i {margin-right: 5px}
+  a {color: #fff; display: inline-block;margin: 0 10px;
+    &:hover {color: $color-link}
+  }
+
+  @media (min-width: $bp-m) {
+
+  }
+}
+

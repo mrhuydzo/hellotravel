@@ -1,0 +1,19 @@
+.section_main {margin-bottom: 30px;
+    @media (min-width: $bp-s) {
+
+    }
+}
+.section_header {margin: 0 0 30px;}
+.section_title {@extend %title-b;
+    a {}
+
+    @media (min-width: $bp-xs) {
+
+    }
+
+}
+.section_body {}
+.section_des {font-size: $font-size-s;margin: 0}
+
+//Section Lastest Tour
+#section_lastest_tour {}

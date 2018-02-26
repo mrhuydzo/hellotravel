@@ -1,0 +1,25 @@
+//Section Lastest Tour
+.customer_section {background: url(../images/bg-customer.png) no-repeat 50% 50%;background-size: cover;color: #fff;min-height: 368px}
+.customer_header {padding: 15px 0}
+.customer_title {font-size: 30px;text-align: center;color: #fff}
+.customer_body {
+  .slick-dots {
+    li {
+      &.slick-active {}
+    }
+  }
+  .slick-arrow {
+    &.slick-next::before,
+    &.slick-prev::before{
+        font-size: 30px;
+    }
+  }
+}
+.customer_carousels {
+  &.slick-dotted.slick-slider {margin: 0}
+}
+.customer_item {text-align: center;padding: 15px;outline: none !important;}
+.customer_thumb {}
+.customer_img {@include border-radius(100%);margin: 0 auto 5px;}
+.customer_name {font-size: $font-size-m;font-weight: bold}
+.customer_say {margin: 0}

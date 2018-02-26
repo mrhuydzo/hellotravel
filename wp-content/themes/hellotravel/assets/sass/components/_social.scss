@@ -1,0 +1,13 @@
+.social-icon {
+  a {display: inline-block;width: 35px;height: 35px;line-height: 35px;color: #fff;text-align: center;font-size: 20px;margin: 0 5px 0 0;
+    @include transition(all , 0.3s ,ease-in-out);
+    @include border-radius(100%);
+
+    &:hover {background: $color-base;}
+    &.icon-facebook {}
+    &.icon-twiiter {}
+    &.icon-ggplus {}
+    &.icon-pinteres {}
+    &.icon-instagram {}
+  }
+}

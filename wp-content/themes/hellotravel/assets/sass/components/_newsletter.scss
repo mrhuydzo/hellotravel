@@ -1,0 +1,4 @@
+.newsletter {}
+.newsletter_frm {display: block; margin: 0 0 20px}
+.newsletter_input {background: #fff;@extend %input-text;padding: 12px;width: calc(100% - 70px);}
+.newsletter_button {background: #fff;border: none;outline: none;text-transform: uppercase;font-size: $font-size-s;padding: 12px 20px;margin: 0 0 0 -2px;}

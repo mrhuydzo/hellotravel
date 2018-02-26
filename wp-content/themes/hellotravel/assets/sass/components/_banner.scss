@@ -1,0 +1,21 @@
+.banner {}
+.banner_img {margin: 0;@include responsive-ratio(1903px,200px);background-position: 50% 50%;background-repeat: no-repeat ;background-size: cover;position: relative;}
+.banner_title {margin: 0;color: #fff;font-size: 48px;text-transform: uppercase;position: absolute;width: 100%;text-align: center;top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+
+  @media (max-width: $bp-m) {
+    //font-size: $font-size-spb;
+  }
+  @media (max-width: $bp-sm) {
+    //font-size: $font-size-xb;
+  }
+  @media (max-width: $bp-s) {
+    //font-size: $font-size-b;
+  }
+  @media (max-width: $bp-xs) {
+    //font-size: $font-size-m;
+  }
+
+}

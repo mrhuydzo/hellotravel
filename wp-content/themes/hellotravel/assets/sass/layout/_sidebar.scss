@@ -1,0 +1,9 @@
+#sidebar {}
+
+.sidebar_lst {@extend %reset-lst}
+.sidebar_lst_item {margin-bottom: 20px;padding-bottom: 20px;border-bottom: solid 1px $color-border;display: flex}
+.sidebar_lst_thumb {display: block;width: 70px;margin-right: 15px}
+.sidebar_lst_img {width: 100%;}
+.sidebar_lst_content {flex: 1}
+.sidebar_lst_title {@extend %title-s;margin-bottom: 12px}
+.sidebar_lst_btn {@include button(80px,25px);}

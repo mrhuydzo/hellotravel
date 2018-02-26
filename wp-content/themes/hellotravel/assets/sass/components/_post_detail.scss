@@ -1,0 +1,39 @@
+//Post Detail
+.post_detail {}
+.post_detail_header {margin: 0 0 15px}
+.post_detail_title {@extend %title-b;margin: 0 0 15px}
+.post_detail_data {}
+.post_detail_top {
+  img {width: 100%}
+}
+.post_detail_summary {}
+.post_detail_content {}
+.post_scroll {background: #fff;height: 60px;line-height: 60px;font-weight: bold;margin-bottom: 30px;
+  a {display: inline-block;padding: 0 15px;color: $color-text;
+    &:hover,
+    &.active {color: $color-link}
+  }
+}
+#post_detail_info {}
+.post_detail_subtitle {@extend %title-b;margin-bottom: 15px}
+.post_scroll_item {margin-bottom: 30px}
+.post_scroll_body {}
+.post_toggle {margin-bottom: 1px}
+.post_toggle_header {background: #fff;padding: 0 20px;margin: 0}
+.post_toggle_title {font-size: $font-size-s;color: $color-text;height: 60px;line-height: 60px;font-weight: bold;display: block;outline: none}
+.post_toggle_body {padding: 15px 0;
+  ul {@extend %reset-lst}
+}
+
+.post_gallery_slide {
+  .slick-dots {bottom: 30px}
+  .slick-dots li button:before {color: #fff;font-size: 15px;opacity: 1}
+  .slick-dots li.slick-active button:before {color: $color-link}
+}
+.post_gallery_img {
+  img {width: 100%}
+}
+
+.post_detail_footer {
+  .nav-links {@extend %clearfix}
+}

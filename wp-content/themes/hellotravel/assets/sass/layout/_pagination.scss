@@ -1,0 +1,16 @@
+.paging {text-align: center;margin: 20px 0;
+  span,
+  a{color: $color-link;padding:3px;margin-right:5px;background:transparent;border:1px solid $color-link}
+
+  a:hover,
+  .current{background:$color-link;color:#fff;text-decoration:none}
+
+  .page-numbers,
+  .current{color: $color-link;font-weight:bold}
+
+  .current{color: #fff;}
+
+  .page-numbers{border:1px solid $color-link;padding: 8px; border-radius: 8px;}
+}
+
+

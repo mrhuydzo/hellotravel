@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html lang="vi-vn" dir="ltr">
+
+<head>
+<meta charset="utf-8" />
+  <base href="http://helloworldtravel.vn/" />
+  <meta name="keywords" content="Hello, World, Travel, Hello World Travel, Hello World, Hello Travel, World Travel, hello, world, travel, hello world travel, hello world, hello travel, world travel" />
+  <meta name="author" content="Super User" />
+  <meta name="description" content="Hello World Travel - Keep Traveling" />
+  <title>Trang Chủ</title>
+  <link href="http://helloworldtravel.vn/component/search/?format=opensearch" rel="search" title="Tìm Hello World Travel" type="application/opensearchdescription+xml" />
+  <link href="/templates/hello/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/cache/widgetkit/widgetkit-502c097e.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_aidanews2/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/media/com_acymailing/css/module_default.css" type="text/css" />
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/js/jquery.js" type="text/javascript"></script>
+  <script src="/cache/widgetkit/widgetkit-3fe7641e.js" type="text/javascript"></script>
+  <script src="/media/com_acymailing/js/acymailing_module.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});<!--
+					var acymailing = Array();
+					acymailing['NAMECAPTION'] = 'Name';
+					acymailing['NAME_MISSING'] = 'Please enter your name';
+					acymailing['EMAILCAPTION'] = 'Email của bạn';
+					acymailing['VALID_EMAIL'] = 'Please enter a valid e-mail address';
+					acymailing['ACCEPT_TERMS'] = 'Please check the Terms and Conditions';
+					acymailing['CAPTCHA_MISSING'] = 'Please enter the security code displayed in the image';
+					acymailing['NO_LIST_SELECTED'] = 'Please select the lists you want to subscribe to';
+			//-->
+  </script>
+
+<link rel="apple-touch-icon-precomposed" href="/templates/hello/apple_touch_icon.png" />
+<link rel="stylesheet" href="/templates/hello/css/base.css" />
+<link rel="stylesheet" href="/templates/hello/css/layout.css" />
+<link rel="stylesheet" href="/templates/hello/css/menus.css" />
+<style>body { min-width: 960px; }
+.wrapper { width: 960px; }
+#sidebar-a { width: 300px; }
+#maininner { width: 660px; }
+#menu .dropdown { width: 250px; }
+#menu .columns2 { width: 500px; }
+#menu .columns3 { width: 750px; }
+#menu .columns4 { width: 1000px; }</style>
+<link rel="stylesheet" href="/templates/hello/css/modules.css" />
+<link rel="stylesheet" href="/templates/hello/css/tools.css" />
+<link rel="stylesheet" href="/templates/hello/css/system.css" />
+<link rel="stylesheet" href="/templates/hello/css/extensions.css" />
+<link rel="stylesheet" href="/templates/hello/css/custom.css" />
+<link rel="stylesheet" href="/templates/hello/css/color1/red.css" />
+<link rel="stylesheet" href="/templates/hello/css/color2/red.css" />
+<link rel="stylesheet" href="/templates/hello/css/font2/arial.css" />
+<link rel="stylesheet" href="/templates/hello/css/font3/arial.css" />
+<link rel="stylesheet" href="/templates/hello/css/style.css" />
+<link rel="stylesheet" href="/templates/hello/css/print.css" />
+<script src="/templates/hello/warp/js/warp.js"></script>
+<script src="/templates/hello/warp/js/accordionmenu.js"></script>
+<script src="/templates/hello/warp/js/dropdownmenu.js"></script>
+<script src="/templates/hello/js/template.js"></script>
+</head>
+
+<body id="page" class="page 
+
+
+
+sidebar-a-right sidebar-b-right isblog " data-config='{"twitter":0,"plusone":0,"facebook":0}'>
+
+		<div id="absolute">
+		<!-- Start BuaXua.vn Floating --><div id="divAdLeft" style="width:150px; height:350px; display: none; position: absolute; top: 0px;font-size: 0px;">
+<p><a href="http://www.helloworldtravel.vn/chau-my/237-tour-hoa-ky-b-dong-b-tay-9-ngay-sieu-ti-t-ki-m"><img src="/images/banners/left.png" border="0" width="150" height="400" /> </a></p>
+</div><div id="divAdRight" style="width:150px; height:350px; display: none; position: absolute; top: 0px;font-size: 0px;">
+<p><a href="/tour-nuoc-ngoai/dong-bac-a"><img src="/images/banners/150x350_L1.jpg" border="0" width="150" height="351" /></a></p>
+</div><script type="text/javascript" src="/modules/mod_buaxua_floating/buaxua_floating.js"></script>
+<script type="text/javascript">
+var MainContentW = 960;
+var LeftPos = 2;
+var LeftBoxW = 150;
+var LeftBoxH = 350;
+var RightPos = 2;
+var RightBoxW = 150;
+var RightBoxH = 350;
+var LeftAdjust = 5;
+var RightAdjust = 5;
+var fSpeed = 20;
+ShowAdDiv();
+window.onresize=ShowAdDiv;
+</script><!-- End BuaXua.vn Floating -->	</div>
+		
+	<div class="wrapper grid-block">
+ 
+		<header id="header">
+        
+            <div style="float:right;">
+            <a href="http://en.helloworldtravel.vn" target="_blank">
+            <img src="/images/eng_bt.png" border="0" alt="logo" width="66" height="40"><p></p>
+            </a></div>
+
+			<div id="headerbar" class="grid-block">
+			
+					
+				<a id="logo" href="http://helloworldtravel.vn">
+<p><img src="/images/logo.png" border="0" alt="logo" width="258" height="68" /></p>
+</a>
+								
+								<div class="left"><div class="module   deepest">
+
+			
+<form id="searchbox" action="/" method="post" role="search">
+	<input type="text" value="" name="searchword" placeholder="search..." />
+	<button type="reset" value="Reset"></button>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="101" />	
+</form>
+
+<script src="/templates/hello/warp/js/search.js"></script>
+<script>
+jQuery(function($) {
+	$('#searchbox input[name=searchword]').search({'url': '/component/search/?tmpl=raw&amp;type=json&amp;ordering=&amp;searchphrase=all', 'param': 'searchword', 'msgResultsHeader': 'Search Results', 'msgMoreResults': 'More Results', 'msgNoResults': 'No results found'}).placeholder();
+});
+</script>		
+</div></div>
+								
+			</div>
+
+			<div id="menubar" class="grid-block">
+				
+								<nav id="menu"><ul class="menu menu-dropdown"><li class="level1 item101 active current"><a href="/" class="level1 active current"><span>Trang Chủ</span></a></li><li class="level1 item104"><a href="/gioi-thieu" class="level1"><span>Giới Thiệu</span></a></li><li class="level1 item103 parent"><a href="/tin-tuc" class="level1 parent"><span>Tin Tức</span></a><div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item189"><a href="/tin-tuc/tin-khuyen-mai" class="level2"><span>Tin khuyến mại</span></a></li><li class="level2 item190"><a href="/tin-tuc/tin-tuc-du-lich" class="level2"><span>Tin tức du lịch</span></a></li><li class="level2 item194"><a href="/tin-tuc/cam-nang-du-lich" class="level2"><span>Cẩm nang du lịch</span></a></li></ul></div></div></div></div></li><li class="level1 item102 parent"><span class="separator level1 parent"><span>Tour Hot - Khuyến mãi</span></span>
+<div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item146"><a href="/tour-hot-khuyen-mai/tour-trong-nuoc" class="level2"><span>Tour trong nước</span></a></li><li class="level2 item147"><a href="/tour-hot-khuyen-mai/tour-nuoc-ngoai" class="level2"><span>Tour nước ngoài</span></a></li></ul></div></div></div></div></li><li class="level1 item161 parent"><span class="separator level1 parent"><span>Tour nước ngoài</span></span>
+<div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item162"><a href="/tour-nuoc-ngoai/dong-nam-a" class="level2"><span>Đông Nam Á</span></a></li><li class="level2 item163"><a href="/tour-nuoc-ngoai/trung-quoc" class="level2"><span>Trung Quốc</span></a></li><li class="level2 item164"><a href="/tour-nuoc-ngoai/dong-bac-a" class="level2"><span>Đông Bắc Á</span></a></li><li class="level2 item182"><a href="/tour-nuoc-ngoai/chau-au" class="level2"><span>Châu Âu</span></a></li><li class="level2 item183"><a href="/tour-nuoc-ngoai/chau-my" class="level2"><span>Châu Mỹ</span></a></li><li class="level2 item184"><a href="/tour-nuoc-ngoai/chau-uc" class="level2"><span>Châu Úc</span></a></li><li class="level2 item185"><a href="/tour-nuoc-ngoai/chau-phi" class="level2"><span>Châu Phi</span></a></li><li class="level2 item186"><a href="/tour-nuoc-ngoai/trung-dong" class="level2"><span>Trung Đông</span></a></li><li class="level2 item187"><a href="/tour-nuoc-ngoai/an-do-duong" class="level2"><span>Ấn Độ Dương</span></a></li></ul></div></div></div></div></li><li class="level1 item165 parent"><span class="separator level1 parent"><span>Tour trong nước</span></span>
+<div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item166"><a href="/tour-trong-nuoc/mien-bac" class="level2"><span>Miền Bắc</span></a></li><li class="level2 item167"><a href="/tour-trong-nuoc/mien-trung" class="level2"><span>Miền Trung</span></a></li><li class="level2 item168"><a href="/tour-trong-nuoc/tay-nguyen" class="level2"><span>Tây Nguyên</span></a></li><li class="level2 item188"><a href="/tour-trong-nuoc/mien-nam" class="level2"><span>Miền Nam</span></a></li></ul></div></div></div></div></li><li class="level1 item197 parent"><a href="/thu-vien" class="level1 parent"><span>Thư viện</span></a><div class="dropdown columns1"><div class="dropdown-bg"><div><div class="width100 column"><ul class="level2"><li class="level2 item198"><a href="/thu-vien/hinh-anh" class="level2"><span>Hình ảnh</span></a></li><li class="level2 item199"><a href="/thu-vien/video" class="level2"><span>Video</span></a></li></ul></div></div></div></div></li><li class="level1 item106"><a href="/lien-he" class="level1"><span>Liên Hệ</span></a></li></ul></nav>
+				
+								
+			</div>
+		
+					
+		</header>
+
+		
+				<div id="main" class="grid-block">
+		
+			<div id="toolbar" class="grid-block">
+
+									
+								
+			</div>
+
+			<div id="maininner" class="grid-box">
+            
+				
+								<section id="innertop"><div class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-line  deepest">
+
+			
+<div id="slideshow-59-5a8f745829bb5" class="wk-slideshow wk-slideshow-default" data-widgetkit="slideshow" data-options='{"style":"default","autoplay":1,"interval":3000,"width":"auto","height":"auto","duration":500,"index":0,"order":"default","navigation":1,"buttons":1,"slices":20,"animated":"fade","caption_animation_duration":500}'>
+	<div>
+		<ul class="slides">
+
+									<li>
+				<article class="wk-content clearfix"><a href="/chau-au/309-du-lich-dong-au-y-ao-sec-slovenia"><img src="/images/hainm/TourChauAu2_fix.png" border="0" width="1900" height="800" /></a></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><a href="/tour-nuoc-ngoai/dong-nam-a/308-don-tet-nguyen-dan-2018-singapore-malaysia"><img src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="/images/banners/2017_2_3_Malai_Sing.jpg" border="0" width="1700" height="700" /></a></article>
+			</li>
+												<li>
+				<article class="wk-content clearfix"><a href="/dong-bac-a/284-don-xuan-2018-tren-dat-mat-troi-moc"><img src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="/images/banners/2017_11_28.png" border="0" width="1203" height="442" /></a></article>
+			</li>
+								</ul>
+		<div class="next"></div><div class="prev"></div>		<div class="caption"></div><ul class="captions"><li></li><li></li><li></li></ul>
+	</div>
+	<ul class="nav"><li><span></span></li><li><span></span></li><li><span></span></li></ul></div>		
+</div></div></div></section>
+				                
+				                <section id="top-b"><div class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-line  deepest">
+
+			
+<div><a href="/index.php/lich-khoi-hanh-hang-thang" target="_blank"><img src="/images/upload/lichkhoihanh.jpg" border="0" width="620" height="100" /></a></div>
+		
+</div></div></div></section>
+                			
+
+								<section id="innerbottom"><div class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Hành</span> trình xa - cao cấp</h3>	<div class="aidanews2 aidanews2_table" style="clear: both;"><div class="aidanews2_tabrow"><div class="aidanews2_art aidacat_34 aidasticky  odd first firstinrow infirstrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/chau-au/244-kham-pha-tour-du-l-ch-th-nhi-ky-hy-l-p">Khám phá tour du lịch:  THỔ NHĨ KỲ - HY LẠP</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/chau-au/244-kham-pha-tour-du-l-ch-th-nhi-ky-hy-l-p"><img src="/images/4.jpg" width="260" height="120" alt="kham-pha-tour-du-l-ch-th-nhi-ky-hy-l-p"/></a><span class="aidanews2_text"><p style="text-align: justify;"><strong><strong>Hành trình:</strong> </strong>THỔ NHĨ KỲ - HY LẠP<br /><strong>Lịch trình:</strong> 9 ngày/ 8 đêm <br /><strong>Biểu giá từ: <span style="color: #ff0000;">45,000,000</span> VND/Khách</strong></p>
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div><div class="aidanews2_art aidacat_36 aidasticky  even lastinrow infirstrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/chau-my/238-thien-du-ng-nghi-du-ng-mua-sam-hawaii">Thiên đường nghĩ dưỡng &amp; mua sắm Hawaii</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/chau-my/238-thien-du-ng-nghi-du-ng-mua-sam-hawaii"><img src="/images/7.jpg" width="260" height="120" alt="thien-du-ng-nghi-du-ng-mua-sam-hawaii"/></a><span class="aidanews2_text"><p style="text-align: justify;"><strong><strong>Hành trình:</strong> <strong>HAWAII – TRÂN CHÂU CẢNG – LÀNG VĂN HOÁ</strong><br /></strong><strong>Lịch trình:</strong> <strong>6 ngày/5 đêm ( Bao gồm cả thời gian bay)</strong><br /><strong>Biểu giá:<span style="color: #ff0000;"> 54</span><span style="color: #ff0000;">.900.000</span> VND/Khách </strong></p>
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div></div><div class="aidanews2_tabrow"><div class="aidanews2_art aidacat_34  odd firstinrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/chau-au/309-du-lich-dong-au-y-ao-sec-slovenia">Du lịch Châu Âu xuyên 2 Dịp Lễ :ITALY - SLOVENIA - AUSTRIA - CZECH</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/chau-au/309-du-lich-dong-au-y-ao-sec-slovenia"><img src="http://vietglobaltravel.com.vn/wp-content/uploads/2017/08/prague-castle-czech-republic-01-1024x576.jpg" width="260" height="120" alt="du-lich-dong-au-y-ao-sec-slovenia"/></a><span class="aidanews2_text"><p style="text-align: left;">Hành trình<strong>:</strong> <span style="color: #0000ff;"><strong>ITALY - SLOVENIA - AUSTRIA - CZECH</strong></span></p>
+<p style="text-align: left;">Thời gian: 9 ngày / 8 đêm (Tính cả thời gian bay)</p>
+<p style="text-align: left;">Khởi hành: <span style="color: #ff0000;"><strong>24/4/2018</strong></span></p>
+<p style="text-align: left;">Giá tour:<strong><span style="color: #ff0000;"> 58.900.000 VNĐ / 01 khách</span></strong></p>
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div><div class="aidanews2_art aidacat_34  even lastinrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/chau-au/302-vuong-quoc-anh-scotland">VƯƠNG QUỐC ANH – SCOTLAND</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/chau-au/302-vuong-quoc-anh-scotland"><img src="/images/10.jpg" width="260" height="120" alt="vuong-quoc-anh-scotland"/></a><span class="aidanews2_text"><p style="text-align: left;" align="center"><strong style="text-align: left;">Hành trình : <span style="color: #0000ff;">LONDON– BATH – AMESBURY - BIBURY – OXFORD – LIVERPOOL – MANCHESTER – EDINBURGH - YORK</span></strong></p>
+<p style="text-align: left;" align="center"><strong>Thời gian :10 ngày/09 đêm – bao gồm cả thời gian bay</strong></p>
+<p style="text-align: left;"><strong>Giá tour : Chỉ từ <span style="color: #ff0000;">79.990.000 VNĐ/ 1 khách</span></strong></p>
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div></div><div class="aidanews2_tabrow"><div class="aidanews2_art aidacat_34  odd firstinrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/chau-au/301-phap-bi-halan-lang-giethoor">PHÁP - BỈ - HÀ LAN- LÀNG GIETHOORN </a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/chau-au/301-phap-bi-halan-lang-giethoor"><img src="/images/11.jpg" width="260" height="120" alt="phap-bi-halan-lang-giethoor"/></a><span class="aidanews2_text"><p style="text-align: left;" align="center"><strong style="text-align: left;">Hành trình : </strong><span style="color: #0000ff;"><strong style="text-align: left;">PHÁP - BỈ - HÀ LAN- LÀNG GIETHOORN</strong></span></p>
+<p style="text-align: left;" align="left"><strong> Thời gian : 8 ngày 7 đêm ( Tính cả thời gian bay)</strong></p>
+<p style="text-align: left;"><strong>Giá tour :<span style="color: #ff0000;"> 50.990.000 VNĐ/ 1 khách</span></strong></p>
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div><div class="aidanews2_art aidacat_33  even last lastinrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/dong-bac-a/298-nhung-thanh-pho-dep-nhat-o-nhat-ban">Những thành phố đẹp nhất ở Nhật Bản</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/dong-bac-a/298-nhung-thanh-pho-dep-nhat-o-nhat-ban"><img src="/images/tour-nuoc-ngoai/nhattt/ePICT0278.jpg" width="260" height="120" alt="nhung-thanh-pho-dep-nhat-o-nhat-ban"/></a><span class="aidanews2_text"><p><strong>Hành trình : <span style="color: #0000ff;">OSAKA - NARA - KYOTO - KOBE</span></strong><br /><strong>Thời gian: 5 Ngày/ 4 Đêm ( Tính cả thời gian bay)</strong><br /><strong>Khởi hành: 24/01/2018</strong><strong><br /></strong></p>
+<p><strong>Phương tiện : Hàng không JETSTAR AIRWAYS</strong></p>
+<p><strong>Giá tour : <span style="color: #ff0000;">22.500.000</span> VNĐ/01 khách</strong></p>
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div></div></div><div style="clear: both;"></div>		
+</div></div></div></section>
+				                
+				                
+                                <section id="bottom-b"><div class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Tour</span> trong nước</h3>	<div class="aidanews2 aidanews2_table" style="clear: both;"><div class="aidanews2_tabrow"><div class="aidanews2_art aidacat_27  odd first firstinrow infirstrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/mien-bac/288-ngoc-chien-mu-cang-chai-bac-ha-sa-pa">NGỌC CHIẾN-MÙ CANG CHẢI-BẮC HÀ-SAPA</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/mien-bac/288-ngoc-chien-mu-cang-chai-bac-ha-sa-pa"><img src="/images/huyen-bac-ha-Lao-Cai.JPG" width="260" height="120" alt="ngoc-chien-mu-cang-chai-bac-ha-sa-pa"/></a><span class="aidanews2_text"><p style="text-align: left;"><strong>Hành trình   : HÀ NỘI</strong><strong> - NGỌC CHIẾN - MÙ CANG CHẢI -</strong><strong>BẮC HÀ - SAPA(4 ngày 3 đêm)</strong></p>
+<p style="text-align: left;" align="center"><strong>Phương tiện: Ô tô</strong></p>
+<p style="text-align: left;" align="center"><strong>Khởi hành     : </strong><strong>19/1; 02,16/2; 09,23/3</strong></p>
+<p style="text-align: left;" align="center"><strong>Giá tour        : <span style="color: #ff0000;">Chỉ từ 3.550.000đ/01 khách</span></strong></p>
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div><div class="aidanews2_art aidacat_27  even last lastinrow infirstrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/mien-bac/287-le-hoi-hoa-ban-mu-cang-chai-ngoc-chien-dien-bien-son-la-moc-chau">LỄ HỘI HOA BAN (MÙ CANG CHẢI- NGỌC CHIẾN- ĐIỆN BIÊN-SƠN LA- MỘC CHÂU)</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/mien-bac/287-le-hoi-hoa-ban-mu-cang-chai-ngoc-chien-dien-bien-son-la-moc-chau"><img src="/images/hoa-ban-trang-tay-bac.jpg" width="260" height="120" alt="le-hoi-hoa-ban-mu-cang-chai-ngoc-chien-dien-bien-son-la-moc-chau"/></a><span class="aidanews2_text"><p style="text-align: left;" align="center"><strong>Hành trình : HÀ NỘI</strong><strong>-MÙ CANG CHẢI-NGỌC CHIẾN- ĐIỆN BIÊN- SƠN LA- MỘC CHÂU</strong></p>
+<p style="text-align: left;" align="center"><strong>Thời gian: 4 ngày 3 đêm</strong></p>
+<p style="text-align: left;" align="center"><strong>Phương tiện: Ô tô</strong></p>
+<p style="text-align: left;" align="center"><strong>Khởi hành :<span style="color: #ff0000;"> 11-14/3 - Lễ hội Hoa Ban</span></strong></p>
+<p style="text-align: left;" align="center"><strong>Giá tour : <span style="color: #ff0000;">Chỉ từ 3.450.000đ/ 01...</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div></div></div><div style="clear: both;"></div>		
+</div></div></div></section>
+                                
+                				<section id="top-a"><div class="grid-block"><div class="grid-box width100 grid-h"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Tin</span> khuyến mãi</h3>	<div class="aidanews2 aidanews2_table" style="clear: both;"><div class="aidanews2_tabrow"><div class="aidanews2_art aidacat_15  odd first firstinrow infirstrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/cam-nang-du-lich/278-voucher-khuy-n-mai-3-ngay-2-dem-t-i-flc-luxury-hotel-s-m-son-va-flc-luxury-hotel-quy-nhon">Voucher khuyến mãi 3 ngày 2 đêm tại FLC Luxury Hotel Sầm Sơn và FLC Luxury Hotel Quy Nhơn</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/cam-nang-du-lich/278-voucher-khuy-n-mai-3-ngay-2-dem-t-i-flc-luxury-hotel-s-m-son-va-flc-luxury-hotel-quy-nhon"><img src="/images/download.jpg" width="260" height="120" alt="voucher-khuy-n-mai-3-ngay-2-dem-t-i-flc-luxury-hotel-s-m-son-va-flc-luxury-hotel-quy-nhon"/></a><span class="aidanews2_text">Giá Bán: 3.250.000 Thời gian: 3 ngày 2 đêmBao gồm ăn sáng dành cho 2 người lớn và 1 trẻ em dưới 6 tuổi.
+ 
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div><div class="aidanews2_art aidacat_15  even lastinrow infirstrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/cam-nang-du-lich/257-hotel-promotion-paradise-h-long">Hotel Promotion Paradise Hạ Long</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/cam-nang-du-lich/257-hotel-promotion-paradise-h-long"><img src="/images/paradise-cruise.jpg" width="260" height="120" alt="hotel-promotion-paradise-h-long"/></a><span class="aidanews2_text">Ưu đãi đặc biệt tại Khách sạn sang trọng bậc nhất Paradise Cruise Hạ Long
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div></div><div class="aidanews2_tabrow"><div class="aidanews2_art aidacat_15  odd firstinrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/cam-nang-du-lich/243-khuy-n-m-i-d-c-bi-t-t-i-the-cliff-resort-residences-mui-ne-he-2016">Khuyến mại đặc biệt tại The Cliff Resort &amp; Residences Mũi Né hè 2016</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/cam-nang-du-lich/243-khuy-n-m-i-d-c-bi-t-t-i-the-cliff-resort-residences-mui-ne-he-2016"><img src="/images/upload/ttour1.jpg" width="260" height="120" alt="khuy-n-m-i-d-c-bi-t-t-i-the-cliff-resort-residences-mui-ne-he-2016"/></a><span class="aidanews2_text">The Cliff Resort &amp; Residences Mũi Né hè 2016
+Chương trình là một chuỗi các hoạt động vui chơi đa dạng, bổ ích hoàn toàn miễn phí dành cho gia đình, trẻ em và nhóm bạn bè như: xây lâu đài cát, làm đồng hồ mặt trời, thả diều, làm bánh, xem phim, chụp hình, trồng cây, thể thao nước…
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div><div class="aidanews2_art aidacat_15  even last lastinrow" style="width:49%"><div class="aidanews2_positions"><div class="aidanews2_head" style="clear: both;"><h1 class="aidanews2_title"><a href="/cam-nang-du-lich/230-hot-promotion">Hot promotion</a></h1></div><div class="aidanews2_main" style="clear: both;"><div class="aidanews2_mainC"><a class="aidanews2_img1" href="/cam-nang-du-lich/230-hot-promotion"><img src="/images/nhatrang.jpg" width="260" height="120" alt="hot-promotion"/></a><span class="aidanews2_text">Hello World Travel mở bán phòng Amiana Resort 5* ở Nha Trang siêu khuyến mại từ ngày 7/12 
+</span></div></div></div><div class="aidanews2_line" style="clear: both; padding: 0;"></div></div></div></div><div style="clear: both;"></div>		
+</div></div></div></section>
+				                
+
+								<section id="content" class="grid-block">
+<div id="system-message-container">
+</div>
+
+<div id="system">
+
+	
+	<article class="item">
+
+			
+		
+		<div class="content clearfix">
+
+		
+
+<table border="0">
+<tbody>
+<tr>
+<td width="75"><a href="http://www.vietnamairlines.com/vn/vi/"><img src="/images/gioi-thieu/LogoAirline/1.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="http://www.singaporeair.com/"><img src="/images/gioi-thieu/LogoAirline/13.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="https://www.jal.com/"><img src="/images/gioi-thieu/LogoAirline/3.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="http://www.thaiairways.com/"><img src="/images/gioi-thieu/LogoAirline/15.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="http://www.evaair.com/"><img src="/images/gioi-thieu/LogoAirline/5.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="http://www.ana.co.jp/"><img src="/images/gioi-thieu/LogoAirline/6.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="http://www.cathaypacific.com/"><img src="/images/gioi-thieu/LogoAirline/4.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="http://www.finnair.com/"><img src="/images/gioi-thieu/LogoAirline/8.jpg" border="0" /></a></td>
+</tr>
+<tr>
+<td width="75"><a href="#"><img src="/images/gioi-thieu/LogoAirline/9.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="#"><img src="/images/gioi-thieu/LogoAirline/10.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="#"><img src="/images/gioi-thieu/LogoAirline/11.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="#"><img src="/images/gioi-thieu/LogoAirline/12.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="#"><img src="/images/gioi-thieu/LogoAirline/2.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="#"><img src="/images/gioi-thieu/LogoAirline/14.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="#"><img src="/images/gioi-thieu/LogoAirline/7.jpg" border="0" /></a></td>
+<td width="1"> </td>
+<td width="75"><a href="#"><img src="/images/gioi-thieu/LogoAirline/16.jpg" border="0" /></a></td>
+</tr>
+</tbody>
+</table>		</div>
+
+		
+			
+	</article>
+
+</div></section>
+				
+
+			</div>
+			<!-- maininner end -->
+			
+						<aside id="sidebar-a" class="grid-box"><div class="grid-box width100 grid-v"><div class="module mod-line  deepest">
+
+			
+<div><img src="/images/upload/icon_hotline.jpg" border="0" alt="" /></div>
+		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Hỗ</span> trợ trực tuyến</h3>	
+<table border="0">
+<tbody>
+<tr>
+<td width="20"><a href="ymsgr:sendIM?htranga6"><img src="http://opi.yahoo.com/online?u=htranga6&amp;m=g&amp;t=5" border="0" alt=" Ms Trang" /></a></td>
+<td width="80"><a href="ymsgr:sendIM?htranga6"><strong>Yahoo1</strong></a></td>
+<td width="20"> </td>
+<td width="20"><a href="skype:huyentrangtt?chat"><img src="/images/skype.png" border="0" /></a></td>
+<td width="80"><a href="skype:huyentrangtt?chat" title="hỗ trợ"><strong>Skype1</strong></a></td>
+<td width="20"><a href="skype:hang-helloworldtravel?chat"><img src="/images/skype.png" border="0" /></a></td>
+<td width="80"><strong><a href="skype:hang-helloworldtravel?chat">Skype2</a><br /></strong></td>
+</tr>
+</tbody>
+</table>
+		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Tin</span> mới nhất</h3>	
+<ul class="line line-icon">
+	<li><a href="/tin-tuc-du-lich/269-v-d-p-nh-t-b-n-hi-n-d-i-va-truy-n-th-ng">Vẻ đẹp Nhật Bản hiện đại và truyền thống</a></li>
+	<li><a href="/tin-tuc-du-lich/250-nh-ng-ngoi-nha-c-tich-co-th-c-gi-a-d-i-thu-ng-chau-au">Những ngôi nhà cổ tích có thực giữa đời thường ở châu Âu</a></li>
+	<li><a href="/tin-tuc-du-lich/241-8-ly-do-du-l-ch-nh-t-b-n">8 lý do du lịch Nhật Bản</a></li>
+	<li><a href="/tin-tuc-du-lich/213-h-guom-trong-kho-nh-kh-c-l-thu-ng">Hồ Gươm trong khoảnh khắc lạ thường</a></li>
+	<li><a href="/tin-tuc-du-lich/212-nh-ng-mon-qua-luu-ni-m-n-i-ti-ng-chau-au">Những món quà lưu niệm nổi tiếng ở châu Âu</a></li>
+	<li><a href="/tin-tuc-du-lich/209-b-o-tang-tranh-3d-d-u-tien-sai-gon">Bảo tàng tranh 3D đầu tiên ở Sài Gòn</a></li>
+	<li><a href="/tin-tuc-du-lich/201-n-ng-chi-u-tren-h-i-dang-ganh-den">Nắng chiều trên hải đăng gành Đèn</a></li>
+	<li><a href="/tin-tuc-du-lich/200-nh-ng-cay-tao-ra-trai-b-ng-vang-morocco">Những cây táo ra trái bằng vàng ở Morocco</a></li>
+	<li><a href="/tin-tuc-du-lich/199-bi-quy-t-nh-p-c-nh-singapore-d-dang">Bí quyết nhập cảnh Singapore dễ dàng</a></li>
+	<li><a href="/tin-tuc-du-lich/198-5-c-m-b-y-hay-g-p-khi-di-du-l-ch-mua-cao-di-m">5 cạm bẫy hay gặp khi đi du lịch mùa cao điểm</a></li>
+</ul>		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-line  deepest">
+
+		<h3 class="module-title"><span class="color">Ảnh</span> đẹp</h3>	
+<div style="text-align: center;"><span>
+<div id="gallery-72-5a8f745863d54" class="wk-slideshow wk-slideshow-default" data-widgetkit="slideshow" data-options='{"style":"default","width":"auto","height":"auto","thumb_width":80,"thumb_height":60,"autoplay":1,"interval":5000,"duration":500,"index":0,"buttons":1,"slices":20,"animated":"fade","caption_animation_duration":500,"effect":"slide","slideset_buttons":1,"items_per_set":3,"slideset_effect_duration":300,"order":"default","navigation":1,"lightbox":0}'>
+	<div>
+		<ul class="slides">
+
+			            
+				
+						
+					<li><img src="/cache/widgetkit/gallery/72/3-Pool-8044305600.jpg" width="800" height="440" alt="3-Pool" /></li>
+								
+							            
+				
+						
+					<li><img src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="/cache/widgetkit/gallery/72/CentralCoastVietnam_Furama-Resort-Private-Beach-1_LR-89332885fe.jpg" width="694" height="400" alt="CentralCoastVietnam_Furama-Resort-Private-Beach-1_LR" /></li>
+								
+							            
+				
+						
+					<li><img src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="/cache/widgetkit/gallery/72/Da-nang-beach-083db1840a.jpg" width="500" height="333" alt="Da-nang-beach" /></li>
+								
+							            
+				
+						
+					<li><img src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="/cache/widgetkit/gallery/72/Danang-Vietnam-05-4d84ec62db.jpg" width="1901" height="1264" alt="Danang-Vietnam-05" /></li>
+								
+							            
+				
+						
+					<li><img src="data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///////wAAACH5BAEHAAIALAAAAAABAAEAAAICVAEAOw==" data-src="/cache/widgetkit/gallery/72/project-fusion-suites-da-nang-beach-bd804789d7.jpg" width="599" height="393" alt="project-fusion-suites-da-nang-beach" /></li>
+								
+										
+		</ul>
+        <div class="next"></div><div class="prev"></div>		<div class="caption"></div><ul class="captions"><li></li><li></li><li></li><li></li><li></li></ul>
+	</div>
+	<ul class="nav"><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li></ul></div>
+	
+</span></div>
+		
+</div></div><div class="grid-box width100 grid-v"><div class="module mod-line none deepest">
+
+			<div id="fb-root"></div><script language="javascript" type="text/javascript">(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) {return;}  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><script language="javascript" type="text/javascript">//<![CDATA[ 
+																						   document.write('<div class="fb-like-box" data-href="http://www.facebook.com/helloworldtravel.vn" data-width="300" data-height="600" data-colorscheme="light" data-show-faces="true" data-border-color="#ddd" data-stream="true" data-force-wall="true" data-header="true"></div> '); 
+																						   //]]>
+			</script>		
+</div></div><div class="sidebar-bg"></div></aside>
+						
+			
+		</div>
+				<!-- main end -->
+		
+				<footer id="footer" class="grid-block">
+
+						<a id="totop-scroller" href="#page"></a>
+						
+			<div class="module   deepest">
+
+			
+<div><strong><span>CÔNG TY TNHH DU LỊCH CHÀO THẾ GIỚI</span></strong><br />Địa chỉ: Số 2 Nguyễn Khắc Hiếu, P. Trúc Bạch, Q. Ba Đình, Hà Nội.<br />Tel: <span>024 - 63285677.</span><br /><span>Hotline 0904.77.2000</span><br />Email: 
+ <script type='text/javascript'>
+ <!--
+ var prefix = '&#109;a' + 'i&#108;' + '&#116;o';
+ var path = 'hr' + 'ef' + '=';
+ var addy60046 = '&#105;nf&#111;' + '&#64;';
+ addy60046 = addy60046 + 'h&#101;ll&#111;w&#111;rldtr&#97;v&#101;l' + '&#46;' + 'vn';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy60046 + '\'>');
+ document.write(addy60046);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>This email address is being protected from spambots. You need JavaScript enabled to view it.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script><br /><br />
+<div>© 2013 Bản quyền thuộc về Hello World Travel.</div>
+<div>Mọi trích dẫn từ Website cần ghi rõ nguồn và phải được sự đồng ý trước.</div>
+ </div>
+		
+</div>
+<div class="module   deepest">
+
+			<div class="acymailing_module" id="acymailing_module_formAcymailing80121">
+	<div class="acymailing_fulldiv" id="acymailing_fulldiv_formAcymailing80121"  >
+		<form id="formAcymailing80121" action="/" onsubmit="return submitacymailingform('optin','formAcymailing80121')" method="post" name="formAcymailing80121"  >
+		<div class="acymailing_module_form" >
+			<span class="acymailing_introtext">Đăng ký nhận tin</span>						<table class="acymailing_form">
+				<tr>
+												<td class="acyfield_email">
+								<input id="user_email_formAcymailing80121"  onfocus="if(this.value == 'Email của bạn') this.value = '';" onblur="if(this.value=='') this.value='Email của bạn';" class="inputbox" type="text" name="user[email]" style="width:80%" value="Email của bạn" />
+							</td> 
+					<td  class="acysubbuttons">
+												<input class="button subbutton btn btn-primary" type="submit" value="Gửi" name="Submit" onclick="try{ return submitacymailingform('optin','formAcymailing80121'); }catch(err){alert('The form could not be submitted '+err);return false;}"/>
+											</td>
+				</tr>
+			</table>
+						<input type="hidden" name="ajax" value="0"/>
+			<input type="hidden" name="ctrl" value="sub"/>
+			<input type="hidden" name="task" value="notask"/>
+			<input type="hidden" name="redirect" value="http%3A%2F%2Fhelloworldtravel.vn%2F"/>
+			<input type="hidden" name="redirectunsub" value="http%3A%2F%2Fhelloworldtravel.vn%2F"/>
+			<input type="hidden" name="option" value="com_acymailing"/>
+						<input type="hidden" name="hiddenlists" value="1"/>
+			<input type="hidden" name="acyformname" value="formAcymailing80121" />
+									</div>
+		</form>
+	</div>
+	</div>
+		
+</div>	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '940913446089974',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/vi_VN/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<div class="fb-customerchat" page_id="439150972826669"</div>
+		</footer>
+		
+	</div>
+	
+	
+</body>
+</html>

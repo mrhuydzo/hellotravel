@@ -1,0 +1,4 @@
+.top-search {display: inline-block;}
+.top-search_frm {}
+.top-search_btn {@extend %reset-input;color: $color-text}
+.top-search_input {@extend %reset-input;color: $color-text;}

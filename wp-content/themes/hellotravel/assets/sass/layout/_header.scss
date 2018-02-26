@@ -1,0 +1,12 @@
+#header {background: #fff;border-bottom: solid 3px #c2c2c2}
+.header_inner {position: relative;min-height: inherit;padding-top: 10px;padding-bottom: 10px;
+  @media (min-width: $bp-m) {
+    min-height: 70px;
+  }
+}
+#logo {margin: 0;
+  @media (min-width: $bp-m) {
+
+  }
+}
+.site-description {position: absolute;text-indent: -9999em}
