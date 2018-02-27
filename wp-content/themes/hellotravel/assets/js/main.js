@@ -33,17 +33,15 @@ jQuery(document).ready(function($){
     //Customer Carousel
     $('.customer_carousels').slick({
         dots: true,
-        infinite: false,
         speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 2,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2,
-                    infinite: true,
+                    slidesToScroll: 1,
                     dots: true
                 }
             },
@@ -51,20 +49,25 @@ jQuery(document).ready(function($){
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
-                }
+                    slidesToScroll: 1,
+                    dots: true
+                },
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
-                }
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: false
+                },
             }
             // You can unslick at a given breakpoint now by adding:
             // settings: "unslick"
             // instead of a settings object
-        ]
+        ],
+        prevArrow: '<span class="slick-prev slick-arrow travel_arrow_prev"><i class="fas fa-chevron-left"></i></span>',
+        nextArrow: '<span class="slick-next slick-arrow travel_arrow_next"><i class="fas fa-chevron-right"></i></span>',
     });
 
     //Slide banner home
@@ -72,7 +75,17 @@ jQuery(document).ready(function($){
         dots: true,
         infinite: false,
         speed: 300,
-        arrows: true
+        arrows: true,
+        prevArrow: '<span class="slick-prev slick-arrow travel_arrow_prev"><i class="fas fa-chevron-left"></i></span>',
+        nextArrow: '<span class="slick-next slick-arrow travel_arrow_next"><i class="fas fa-chevron-right"></i></span>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    arrows: false
+                }
+            },
+        ]
     });
 
     //Tour Gallery img

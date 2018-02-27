@@ -47,14 +47,15 @@
   ul {@extend %reset-lst}
 }
 
-.post_gallery_slide {
+.post_gallery_slide { background: rgba(0,0,0, 0.3) ;
   .slick-dots {bottom: 30px}
   .slick-dots li button:before {color: #fff;font-size: 15px;opacity: 1}
   .slick-dots li.slick-active button:before {color: $color-link}
 }
-.post_gallery_img {
-  img {width: 100%}
+.post_gallery_item {
+  a {display: block}
 }
+.post_gallery_img {width: 100%}
 
 .post_detail_footer {
   .nav-links {@extend %clearfix}

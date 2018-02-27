@@ -2,19 +2,29 @@
 .customer_section {background: url(../images/bg-customer.png) no-repeat 50% 50%;background-size: cover;color: #fff;min-height: 368px}
 .customer_header {padding: 15px 0}
 .customer_title {font-size: 30px;text-align: center;color: #fff}
-.customer_body {
-  .slick-dots {
-    li {
-      &.slick-active {}
-    }
+.customer_body { padding: 15px 0;
+  .slick-dots {bottom: inherit;padding: 15px 0}
+  .slick-dots li button {width: auto;height: auto}
+  .slick-dots li button:before {font-size: 12px;color: #fff;opacity: 1;width: auto;height: auto;
+    @include transition(all .3s ease);
   }
+  .slick-dots li.slick-active button:before {color: $color-link;font-size: 16px;}
+
   .slick-arrow {
     &.slick-next::before,
     &.slick-prev::before{
         font-size: 30px;
     }
   }
+  .travel_arrow_prev,
+  .travel_arrow_next {width: auto;height: auto;color: #fff;z-index: 1;
+    &::before {content: ''}
+    i {color: #fff;font-size: 30px}
+  }
+  .travel_arrow_prev {left: 50px}
+  .travel_arrow_next {right: 50px}
 }
+
 .customer_carousels {
   &.slick-dotted.slick-slider {margin: 0}
 }

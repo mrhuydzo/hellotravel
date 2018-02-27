@@ -121,21 +121,21 @@
                 <div class="post_scroll_body">
                     <div class="post_gallery_slide">
 	                    <?php
-	                    // check if the repeater field has rows of data
-	                    if( have_rows('gallery_slide') ):
-		                    // loop through the rows of data
-		                    while ( have_rows('gallery_slide') ) : the_row();
-			                    $image = get_sub_field('gallery_slide_img');
-			                    // display a sub field value
-			                    ?>
-                                <div class="post_gallery_img">
-                                    <a href="" title="<?php echo $image['alt'] ?>"><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" /></a>
-                                </div>
-			                    <?php
-		                    endwhile;
-	                    else :
-		                    // no rows found
-	                    endif;
+                            // check if the repeater field has rows of data
+                            if( have_rows('gallery_slide') ):
+                                // loop through the rows of data
+                                while ( have_rows('gallery_slide') ) : the_row();
+                                    $image = get_sub_field('gallery_slide_img');
+                                    // display a sub field value
+                                    ?>
+                                    <div class="post_gallery_item">
+                                        <a href="" title="<?php echo $image['alt'] ?>"><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>" class="post_gallery_img" /></a>
+                                    </div>
+                                    <?php
+                                endwhile;
+                            else :
+                                // no rows found
+                            endif;
 	                    ?>
                     </div>
                 </div>
