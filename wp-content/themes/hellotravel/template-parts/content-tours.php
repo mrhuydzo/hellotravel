@@ -24,7 +24,6 @@
                 <?php
             endif;
 		?>
-        <time class="post_date" datetime=""><?php the_date(); ?></time>
     </header><!-- .entry-header -->
 
     <div class="post_detail_data">

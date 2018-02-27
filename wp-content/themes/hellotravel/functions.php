@@ -279,7 +279,6 @@ function taxonomy_slug_rewrite($wp_rewrite) {
 add_filter( 'generate_rewrite_rules', 'taxonomy_slug_rewrite' );
 
 // register Custom Post Types
-// register Custom Post Types
 function create_post_types() {
 
 	register_post_type('tours', array(

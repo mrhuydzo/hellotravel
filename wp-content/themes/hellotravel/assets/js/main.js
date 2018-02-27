@@ -67,12 +67,20 @@ jQuery(document).ready(function($){
         ]
     });
 
+    //Slide banner home
+    $('.banner_slide_home').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        arrows: true
+    });
+
     //Tour Gallery img
     $('.post_gallery_slide').slick({
         dots: true,
         infinite: false,
         speed: 300,
-        arrows: false,
+        arrows: false
     });
 
     //Tour Toggle//

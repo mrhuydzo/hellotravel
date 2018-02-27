@@ -20,6 +20,7 @@
 
 	<div id="page_home" class="main_container">
         <main id="main">
+	        <?php get_template_part('sections/section','banner') ?>
             <div class="container">
                 <div class="row">
                     <section class="col-lg-8">

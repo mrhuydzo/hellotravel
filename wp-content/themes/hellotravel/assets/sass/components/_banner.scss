@@ -1,21 +1,44 @@
-.banner {}
-.banner_img {margin: 0;@include responsive-ratio(1903px,200px);background-position: 50% 50%;background-repeat: no-repeat ;background-size: cover;position: relative;}
-.banner_title {margin: 0;color: #fff;font-size: 48px;text-transform: uppercase;position: absolute;width: 100%;text-align: center;top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
+.banner_slide {}
+.banner_slide_home {
+  .banner_slide_item {background-repeat: no-repeat;background-position: 50% 50%;background-size: cover;}
+  .banner_slide_item_container {position: relative;min-height: 260px; display: flex; flex-direction: column; justify-content: center;
+    @media (min-width: $bp-s) {
+        min-height: 360px
+    }
+    @media (min-width: $bp-sm) {
+        min-height: 460px
+    }
+    @media (min-width: $bp-m) {
+        min-height: 560px
+    }
+  }
+  .slick-dots {bottom: 0;padding: 15px 0}
+  .slick-dots li button {width: auto;height: auto}
+  .slick-dots li button:before {font-size: 30px;color: #fff;opacity: 1;width: auto;height: auto;
+      @include transition(all .3s ease);
+  }
+  .slick-dots li.slick-active button:before {color: $color-link;font-size: 40px;}
+}
+.banner_slide_title {color: #fff;
+  &-1 {text-transform: uppercase;font-size: $font-size-bb;font-weight: bold;
+      @media (min-width: $bp-s) {
+        font-size: 34px;
+      }
+  }
+  &-2 {font-size: $font-size-b;
+      @media (min-width: $bp-s) {
+        font-size: $font-size-bb
+      }
+  }
+  &-3 {font-size: $font-size-m;margin-bottom: 15px;
+      @media (min-width: $bp-s) {
+        font-size: $font-size-b
+      }
+  }
+}
 
-  @media (max-width: $bp-m) {
-    //font-size: $font-size-spb;
-  }
-  @media (max-width: $bp-sm) {
-    //font-size: $font-size-xb;
-  }
-  @media (max-width: $bp-s) {
-    //font-size: $font-size-b;
-  }
-  @media (max-width: $bp-xs) {
-    //font-size: $font-size-m;
-  }
-
+.banner_slide_btn {@include button(80px,25px);font-size: $font-size-m;
+    @media (min-width: $bp-s) {
+      @include button(160px,54px);font-size: $font-size-bb;
+    }
 }
