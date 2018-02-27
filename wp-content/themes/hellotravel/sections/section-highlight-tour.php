@@ -14,7 +14,7 @@
 	                array(
 		                'key' => 'tour_highlight', // name of custom field
 		                'value' => 'Yes', // matches exactly "red"
-		                //'compare' => 'LIKE'
+		                'compare' => 'LIKE'
 	                )
                 )
             );
@@ -23,15 +23,51 @@
             $the_query = new WP_Query( $args );
         ?>
 	    <?php if( $the_query->have_posts() ): ?>
-            <ul>
-			    <?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                    <li>
-                        <a href="<?php the_permalink(); ?>">
-						    <?php the_title(); ?>
-                        </a>
-                    </li>
-			    <?php endwhile; ?>
-            </ul>
+            <div class="row">
+	            <?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                    <article class="col-6 post_item" id="post_item_<?php the_id();?>">
+                        <div class="post_item_inner">
+                            <figure class="post_thumb">
+                                <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="post_thumb_link">
+			                        <?php if ( has_post_thumbnail()){
+				                        the_post_thumbnail('thumbnail');
+			                        } else { ?>
+                                        <img src="http://via.placeholder.com/200x200" alt="<?php the_title();?>" class="post_thumb_img" />
+			                        <?php } ?>
+                                </a>
+                            </figure>
+                            <div class="post_info">
+                                <div class="post_top">
+                                    <h3 class="post_title"><a href="<?php the_permalink(); ?>" title="<?php the_title();?>"><?php the_title(); ?></a></h3>
+                                    <div class="row post_meta">
+                                        <div class="col">
+                                            <strong class="post_tour_place">
+                                                <i class="far fa-clock"></i><?php the_field('tour_schedule') ?>
+                                            </strong>
+                                        </div>
+                                        <div class="col">
+                                            <strong class="post_tour_start">
+                                                <i class="far fa-calendar"></i><?php the_field('tour_start') ?>
+                                            </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post_body">
+                                    <p class="post_summary"><?php echo word_count(get_the_excerpt(), '35').'...'; ?></p>
+                                    <div class="row d-flex align-items-center">
+                                        <div class="col">
+                                            Chỉ từ: <span class="tour_price_old"><?php the_field('tour_price_old') ?></span>
+                                        </div>
+                                        <div class="col">
+                                            <strong class="tour_price_new"><?php the_field('tour_price_new') ?></strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+	            <?php endwhile; ?>
+            </div>
 	    <?php endif; ?>
 
 	    <?php wp_reset_query();	 // Restore global post data stomped by the_post(). ?>
