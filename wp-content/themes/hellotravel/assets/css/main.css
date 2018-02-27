@@ -927,7 +927,8 @@ a {
   right: 50px; }
 
 .banner_slide_title {
-  color: #fff; }
+  color: #fff;
+  text-indent: 30px; }
   .banner_slide_title-1 {
     text-transform: uppercase;
     font-size: 24px;
@@ -1004,7 +1005,8 @@ a {
       text-align: center;
       color: #fff;
       font-size: 14px;
-      font-size: 24px; }
+      font-size: 24px;
+      margin-left: 30px; }
       .banner_slide_btn::before, .banner_slide_btn::after {
         content: '';
         border-style: solid;

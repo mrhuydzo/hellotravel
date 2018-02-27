@@ -3,7 +3,7 @@
 <div id="post_category" class="main_container">
     <div class="container">
         <div class="row">
-			<?php if (function_exists('show_bread')) {show_bread();} ?>
+            Breadcrum
         </div>
         <div class="row">
             <main id="main" class="col-lg-8">

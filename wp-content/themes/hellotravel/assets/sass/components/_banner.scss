@@ -27,7 +27,7 @@
   .travel_arrow_prev {left: 50px}
   .travel_arrow_next {right: 50px}
 }
-.banner_slide_title {color: #fff;
+.banner_slide_title {color: #fff; text-indent: 30px;
   &-1 {text-transform: uppercase;font-size: $font-size-bb;font-weight: bold;
       @media (min-width: $bp-s) {
         font-size: 34px;
@@ -47,6 +47,6 @@
 
 .banner_slide_btn {@include button(80px,25px);font-size: $font-size-m;
     @media (min-width: $bp-s) {
-      @include button(160px,54px);font-size: $font-size-bb;
+      @include button(160px,54px);font-size: $font-size-bb;margin-left: 30px;
     }
 }
