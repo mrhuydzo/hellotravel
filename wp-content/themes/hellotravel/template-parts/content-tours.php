@@ -34,16 +34,16 @@
 	        } else { ?>
                 <img src="http://via.placeholder.com/200x200" alt="<?php the_title();?>" class="post_thumb_img" />
 	        <?php } ?>
-            <div class="post_detail_summary">
-                <div class="">
-                    Điểm đến: <?php the_field('tour_place') ?>
-                    Lịch trình: <?php the_field('tour_place') ?>
-                    Ngày khỏi hành <?php the_field('tour_start') ?>
+            <div class="row post_detail_summary">
+                <div class="left col-md-8">
+                    <div class="post_tour_place"><i class="fas fa-map-marker-alt"></i>Điểm đến: <strong><?php the_field('tour_place') ?></strong></div>
+                    <div class="post_tour_schedule"><i class="far fa-clock"></i>Lịch trình: <strong><?php the_field('tour_schedule') ?></strong></div>
+                    <div class="post_tour_start"><i class="fas fa-calendar-alt"></i>Ngày khởi hành: <strong><?php the_field('tour_start') ?></strong></div>
                 </div>
-                <div>
-                    Chỉ từ: <?php the_field('tour_price_old') ?>
-                    <?php the_field('tour_price_new') ?>
-                    <a class="post_order_tour" href="<?php the_permalink(); ?>" title="Đặt Tour">Đặt Tour</a>
+                <div class="right col-md-4">
+                    <div class="post_tour_price-old">Chỉ từ: <?php the_field('tour_price_old') ?> vnđ</div>
+                    <div class="post_tour_price-new"><?php the_field('tour_price_new') ?> vnđ</div>
+                    <a class="post_tour_order" href="<?php the_permalink(); ?>" title="Đặt Tour">Đặt Tour</a>
                 </div>
 
             </div>
@@ -60,23 +60,23 @@
             <div class="post_scroll_item" id="post_detail_info">
                 <h3 class="post_detail_subtitle">Thông tin</h3>
 	            <?php
-	            the_content( sprintf(
-		            wp_kses(
-		            /* translators: %s: Name of current post. Only visible to screen readers */
-			            __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'travel' ),
-			            array(
-				            'span' => array(
-					            'class' => array(),
-				            ),
-			            )
-		            ),
-		            get_the_title()
-	            ) );
+                    the_content( sprintf(
+                        wp_kses(
+                        /* translators: %s: Name of current post. Only visible to screen readers */
+                            __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'travel' ),
+                            array(
+                                'span' => array(
+                                    'class' => array(),
+                                ),
+                            )
+                        ),
+                        get_the_title()
+                    ) );
 
-	            wp_link_pages( array(
-		            'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'travel' ),
-		            'after'  => '</div>',
-	            ) );
+                    wp_link_pages( array(
+                        'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'travel' ),
+                        'after'  => '</div>',
+                    ) );
 	            ?>
             </div>
             <div class="post_scroll_item" id="post_detail_schedule">

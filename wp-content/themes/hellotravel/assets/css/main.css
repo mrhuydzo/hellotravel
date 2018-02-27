@@ -607,16 +607,16 @@ a {
     .post_body-right {
       text-align: center; } }
 
-.tour_price_old {
+.tour_price_old, .post_detail_summary .post_tour_price-old {
   color: #636363;
   text-decoration: line-through; }
 
-.tour_price_new {
+.tour_price_new, .post_detail_summary .post_tour_price-new {
   color: #f15a29;
   font-size: 20px;
   display: block; }
 
-.post_order_tour {
+.post_order_tour, .post_detail_summary .post_tour_order {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -630,7 +630,7 @@ a {
   color: #fff;
   font-size: 14px;
   margin: 0 auto; }
-  .post_order_tour::before, .post_order_tour::after {
+  .post_order_tour::before, .post_detail_summary .post_tour_order::before, .post_order_tour::after, .post_detail_summary .post_tour_order::after {
     content: '';
     border-style: solid;
     border-color: #f15a29;
@@ -640,24 +640,24 @@ a {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
-  .post_order_tour::before {
+  .post_order_tour::before, .post_detail_summary .post_tour_order::before {
     width: 0;
     height: 100%;
     border-width: 1px 0 1px 0;
     top: -1px;
     left: 0; }
-  .post_order_tour::after {
+  .post_order_tour::after, .post_detail_summary .post_tour_order::after {
     width: 100%;
     height: 0;
     border-width: 0 1px 0 1px;
     top: 0;
     left: -1px; }
-  .post_order_tour:hover {
+  .post_order_tour:hover, .post_detail_summary .post_tour_order:hover {
     background: #fff;
     color: #f15a29; }
-    .post_order_tour:hover::before {
+    .post_order_tour:hover::before, .post_detail_summary .post_tour_order:hover::before {
       width: 100%; }
-    .post_order_tour:hover::after {
+    .post_order_tour:hover::after, .post_detail_summary .post_tour_order:hover::after {
       height: 100%; }
 
 .post_summary {
@@ -695,8 +695,34 @@ a {
 .post_detail_title {
   margin: 0 0 15px; }
 
-.post_detail_top img {
-  width: 100%; }
+.post_detail_top {
+  margin: 0 0 15px; }
+  .post_detail_top img {
+    width: 100%; }
+
+.post_detail_summary {
+  padding: 15px 0; }
+  .post_detail_summary i {
+    color: #f15a29;
+    font-size: 20px;
+    vertical-align: -2px;
+    margin-right: 10px; }
+  .post_detail_summary .left {
+    border: none; }
+    @media (min-width: 480px) {
+      .post_detail_summary .left {
+        border-right: solid 1px #e5e5e5; } }
+  .post_detail_summary .post_tour_place {
+    margin-bottom: 15px; }
+  .post_detail_summary .post_tour_schedule {
+    margin-bottom: 15px; }
+  .post_detail_summary .post_tour_price-old {
+    margin-bottom: 5px; }
+  .post_detail_summary .post_tour_price-new {
+    font-weight: bold;
+    margin-bottom: 5px; }
+  .post_detail_summary .post_tour_order {
+    margin: inherit; }
 
 .post_scroll {
   background: #fff;
@@ -704,12 +730,20 @@ a {
   line-height: 60px;
   font-weight: bold;
   margin-bottom: 30px; }
+  .post_scroll.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%; }
   .post_scroll a {
     display: inline-block;
-    padding: 0 15px;
-    color: #636363; }
+    color: #636363;
+    padding: 0 5px; }
     .post_scroll a:hover, .post_scroll a.active {
       color: #f15a29; }
+    @media (min-width: 480px) {
+      .post_scroll a {
+        padding: 0 15px; } }
 
 .post_detail_subtitle {
   margin-bottom: 15px; }
@@ -1178,6 +1212,9 @@ a.breadcrumb_item {
 
 span.breadcrumb_item {
   color: #636363; }
+
+#page_home {
+  padding: 30px 0 0; }
 
 .page_title {
   margin-bottom: 30px; }

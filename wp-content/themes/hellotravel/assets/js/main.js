@@ -68,7 +68,6 @@ jQuery(document).ready(function($){
     });
 
     //Tour Gallery img
-    //Tour Gallery img
     $('.post_gallery_slide').slick({
         dots: true,
         infinite: false,
@@ -81,27 +80,28 @@ jQuery(document).ready(function($){
     $('.post_toggle_header').click(function () {
         console.log($(this).parent());
         var thisToggle = $(this).parent().find('.post_toggle_body');
-        thisToggle.toggle('5000');
+        thisToggle.slideToggle('5000');
     });
 
     //Scroll to
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 500) {
-            $(".post_scroll").addClass("darkHeader");
-        } else {
-            $(".post_scroll").removeClass("darkHeader");
-        }
-    });
-
     $('.post_scroll a').on('click', function(event) {
         $('.post_scroll a').removeClass('active');
         $(this).addClass('active');
         var target = $(this).attr('href');
         var new_position = $(target).offset();
         $('html, body').stop().animate({
-                scrollTop: new_position.top
-            },3000
+                scrollTop: new_position.top - 40
+            },1000
         );
+    });
+
+    var postScroll = $(".post_scroll").offset();
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= postScroll.top) {
+            $(".post_scroll").addClass("fixed");
+        } else {
+            $(".post_scroll").removeClass("fixed");
+        }
     });
 });
