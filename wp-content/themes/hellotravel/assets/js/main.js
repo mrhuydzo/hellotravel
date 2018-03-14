@@ -36,6 +36,8 @@ jQuery(document).ready(function($){
         speed: 300,
         slidesToShow: 3,
         slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 1024,
@@ -76,6 +78,8 @@ jQuery(document).ready(function($){
         infinite: false,
         speed: 300,
         arrows: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
         prevArrow: '<span class="slick-prev slick-arrow travel_arrow_prev"><i class="fas fa-chevron-left"></i></span>',
         nextArrow: '<span class="slick-next slick-arrow travel_arrow_next"><i class="fas fa-chevron-right"></i></span>',
         responsive: [
@@ -93,7 +97,9 @@ jQuery(document).ready(function($){
         dots: true,
         infinite: false,
         speed: 300,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
     });
 
     //Tour Toggle//

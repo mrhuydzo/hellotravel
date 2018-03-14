@@ -14,10 +14,30 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="author" content="" />
+    <meta name="article:author" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta itemprop="description" property="og:description" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta itemprop="image" content=""/>
+    <meta itemprop="datePublished" content=""/>
+    <meta name="msvalidate.01" content="" />
+    <meta property="article:published_time" content="" />
+    <meta name="googlebot" content="noarchive,index,follow" />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="canonical" href=""/>
+    <link rel="shortcut icon" href="" type="image/x-icon" />
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" />
     <?php wp_head(); ?>
 </head>
 
