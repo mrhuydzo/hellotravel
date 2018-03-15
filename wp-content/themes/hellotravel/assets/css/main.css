@@ -438,7 +438,7 @@ template {
 .no-padding {
   padding: 0; }
 
-.post_toggle_body ul, .footer_link, .footer_connect, .navtop_lst, .sidebar_lst {
+.post_toggle_body ul, .footer_link, .footer_connect, .navtop_lst, .sidebar_lst, .categories_tours, .categories_tours ul.children {
   list-style: none;
   margin: 0;
   padding: 0; }
@@ -1386,6 +1386,19 @@ html.open_menu body {
       width: 100%; }
     .sidebar_lst_btn:hover::after {
       height: 100%; }
+
+.categories_tours ul.children .cat-item.current-cat {
+  font-weight: bold; }
+  .categories_tours ul.children .cat-item.current-cat a {
+    color: #f15a29; }
+
+.categories_tours a {
+  font-size: 16px;
+  display: block;
+  border-bottom: solid 1px #e5e5e5;
+  padding: 10px 0; }
+  .categories_tours a:hover {
+    text-indent: 5px; }
 
 .topbar {
   background: #000;

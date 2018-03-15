@@ -121,14 +121,19 @@ jQuery(document).ready(function($){
             },1000
         );
     });
-
-    var postScroll = $(".post_scroll").offset();
+    var itemScroll = $('.post_scroll')
+    var postScroll = $('.post_scroll').offset().top;
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        if (scroll >= postScroll.top) {
-            $(".post_scroll").addClass("fixed");
+        if (scroll >= postScroll) {
+            itemScroll.addClass("fixed");
         } else {
-            $(".post_scroll").removeClass("fixed");
+            itemScroll.removeClass("fixed");
         }
     });
+
+    //Lazy
+    $('.post_thumb_link img').Lazy();
+
+
 });

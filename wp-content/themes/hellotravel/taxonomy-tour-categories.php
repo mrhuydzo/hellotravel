@@ -43,8 +43,18 @@
                                                 <p class="post_summary"><?php echo word_count(get_the_excerpt(), '35').'...'; ?></p>
                                             </div>
                                             <div class="col-sm-4 post_body-right">
-                                                Chỉ từ: <span class="tour_price_old"><?php the_field('tour_price_old') ?></span>
-                                                <strong class="tour_price_new"><?php the_field('tour_price_new') ?></strong>
+                                                Chỉ từ: <span class="tour_price_old">
+                                                    <?php
+                                                        $priceOld = get_field('tour_price_old');
+                                                        echo number_format($priceOld,0,"",".");
+                                                    ?>
+                                                </span>
+                                                <strong class="tour_price_new">
+	                                                <?php
+	                                                    $priceNew = get_field('tour_price_new');
+	                                                    echo number_format($priceNew,0,"",".");
+	                                                ?>
+                                                </strong>
                                                 <a class="post_order_tour" href="<?php the_permalink(); ?>" title="Đặt Tour">Đặt Tour</a>
                                             </div>
                                         </div>
