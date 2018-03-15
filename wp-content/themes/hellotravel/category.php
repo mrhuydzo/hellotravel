@@ -20,7 +20,7 @@
 
 <div id="post_category" class="main_container">
 	<div class="container">
-        <div class="breadcrumsb">
+        <div class="breadcrums">
 			<?php
                 if(function_exists('bcn_display')) {
                     bcn_display();
