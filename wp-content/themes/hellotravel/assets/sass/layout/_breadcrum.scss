@@ -1,5 +1,8 @@
-.breadcrumb {font-weight: bold;min-height: 40px;line-height: 40px;margin: 0 0 30px}
-a.breadcrumb_item {color: $color-text;
-  &:hover {color: $color-base}
+.breadcrums {font-weight: bold;margin: 0 0 15px;padding: 15px 0;
+  & > span {color: $color-link;
+    a {color: $color-text;
+      &:hover {color: $color-link}
+      span {}
+    }
+  }
 }
-span.breadcrumb_item {color: $color-base;}

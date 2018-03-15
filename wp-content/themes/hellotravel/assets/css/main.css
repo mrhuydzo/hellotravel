@@ -520,7 +520,7 @@ a {
   margin-bottom: 30px; }
 
 .section_header {
-  margin: 0 0 30px; }
+  margin: 0 0 15px; }
 
 .section_des {
   font-size: 14px;
@@ -1416,19 +1416,16 @@ html.open_menu body {
     .topbar a:hover {
       color: #f15a29; }
 
-.breadcrumb {
+.breadcrums {
   font-weight: bold;
-  min-height: 40px;
-  line-height: 40px;
-  margin: 0 0 30px; }
-
-a.breadcrumb_item {
-  color: #636363; }
-  a.breadcrumb_item:hover {
-    color: #636363; }
-
-span.breadcrumb_item {
-  color: #636363; }
+  margin: 0 0 15px;
+  padding: 15px 0; }
+  .breadcrums > span {
+    color: #f15a29; }
+    .breadcrums > span a {
+      color: #636363; }
+      .breadcrums > span a:hover {
+        color: #f15a29; }
 
 .page_title {
   margin-bottom: 30px; }

@@ -10,8 +10,12 @@
 <?php get_header(); ?>
     <div id="page_posts" class="main_container">
         <div class="container">
-            <div class="row">
-                Breadcrum
+            <div class="breadcrums">
+		        <?php
+                    if(function_exists('bcn_display')) {
+                        bcn_display();
+                    }
+		        ?>
             </div>
             <div class="row">
                 <main id="main" class="col-lg-8">

@@ -75,7 +75,7 @@ jQuery(document).ready(function($){
     //Slide banner home
     $('.banner_slide_home').slick({
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 300,
         arrows: true,
         autoplay: true,
