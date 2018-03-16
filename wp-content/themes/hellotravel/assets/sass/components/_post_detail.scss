@@ -26,9 +26,12 @@
   &.fixed {
     position: fixed;top: 0;z-index: 999;width: 100%;
   }
-  a {display: inline-block;color: $color-text;padding: 0 5px;
-    &:hover,
-    &.active {color: $color-link}
+  .post_scroll_item {display: inline-block;color: $color-text;padding: 0 5px;
+    a {
+      &:hover {color: $color-link}
+    }
+    &.active a{color: $color-link}
+
 
     @media (min-width: $bp-s) {
       padding: 0 15px;
@@ -38,7 +41,8 @@
 }
 #post_detail_info {}
 .post_detail_subtitle {@extend %title-b;margin-bottom: 15px}
-.post_scroll_item {margin-bottom: 30px}
+
+.post_scroll_content {margin-bottom: 30px}
 .post_scroll_body {}
 .post_toggle {margin-bottom: 1px}
 .post_toggle_header {background: #fff;padding: 0 20px;margin: 0}

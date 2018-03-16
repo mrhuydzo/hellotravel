@@ -26,9 +26,6 @@
                                 <li><a href="" title="Tuyển dụng">Tuyển dụng</a></li>
                                 <li><a href="" title="Hoạt động">Hoạt động</a></li>
                             </ul>
-                            <!--	<?php /*if ( is_active_sidebar( 'footer-sidebar-1' ) ) : */?>
-                        <?php /*dynamic_sidebar( 'footer-sidebar-1' ); */?>
-                    --><?php /*endif; */?>
                         </div>
                         <div class="col-sm-6 col-md-3 footer_column">
                             <div class="footer_contact">
@@ -42,14 +39,8 @@
                                     </ul>
                                 </div>
                             </div>
-						    <?php /*if ( is_active_sidebar( 'footer-sidebar-2' ) ) : */?><!--
-                        <?php /*dynamic_sidebar( 'footer-sidebar-2' ); */?>
-                    --><?php /*endif; */?>
                         </div>
                         <div class="col-sm-6 col-md-3 footer_column">
-						    <?php /*if ( is_active_sidebar( 'footer-sidebar-3' ) ) : */?><!--
-                        <?php /*dynamic_sidebar( 'footer-sidebar-3' ); */?>
-                    --><?php /*endif; */?>
                             <h3 class="footer_column_title">Danh mục sản phẩm</h3>
                             <div>
                                 <ul class="footer_link">
@@ -72,6 +63,9 @@
                 </div>
                 <div class="col-lg-4">
                     <h3 class="footer_column_title">Kết nối với Hello World Travel</h3>
+                    <div>
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fhelloworldtravel.vn%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1419092231449310" width="340" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    </div>
                 </div>
             </div>
 
@@ -141,6 +135,18 @@
 <!-- cdnjs -->
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.plugins.min.js"></script>
+
+
+<!--Comment Facebook-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12&appId=1419092231449310&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
 </body>
 </html>

@@ -18,11 +18,6 @@ jQuery(document).ready(function($){
         $('html , body').toggleClass('open_menu');
     });
 
-    //WOW Library
-    new WOW().init();
-
-    //Smooth Scroll
-
 
     //Preloader
     var preloader = $('.preloader');
@@ -111,24 +106,58 @@ jQuery(document).ready(function($){
     });
 
     //Scroll to
-    $('.post_scroll a').on('click', function(event) {
-        $('.post_scroll a').removeClass('active');
-        $(this).addClass('active');
-        var target = $(this).attr('href');
-        var new_position = $(target).offset();
+    // Cache selectors
+    var lastId,
+        topMenu = $('.post_scroll'),
+        topMenuHeight = topMenu.outerHeight()+15,
+        headerScroll = topMenu.offset();
+    // All list items
+    menuItems = topMenu.find("a"),
+        // Anchors corresponding to menu items
+        scrollItems = menuItems.map(function(){
+            var item = $($(this).attr("href"));
+            if (item.length) { return item; }
+        });
+
+
+    // Bind click handler to menu items
+    // so we can get a fancy scroll animation
+    menuItems.click(function(e){
+        var href = $(this).attr("href"),
+            offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+1;
         $('html, body').stop().animate({
-                scrollTop: new_position.top - 40
-            },1000
-        );
+            scrollTop: offsetTop
+        }, 300);
+        e.preventDefault();
     });
-    var itemScroll = $('.post_scroll')
-    var postScroll = $('.post_scroll').offset().top;
-    $(window).scroll(function() {
+
+    // Bind to scroll
+    $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll >= postScroll) {
-            itemScroll.addClass("fixed");
+        if (scroll >= headerScroll.top) {
+            topMenu.addClass("fixed");
         } else {
-            itemScroll.removeClass("fixed");
+            topMenu.removeClass("fixed");
+        }
+
+        // Get container scroll position
+        var fromTop = $(this).scrollTop()+topMenuHeight;
+
+        // Get id of current scroll item
+        var cur = scrollItems.map(function(){
+            if ($(this).offset().top < fromTop)
+                return this;
+        });
+        // Get the id of the current element
+        cur = cur[cur.length-1];
+        var id = cur && cur.length ? cur[0].id : "";
+
+        if (lastId !== id) {
+            lastId = id;
+            // Set/remove active class
+            menuItems
+                .parent().removeClass("active")
+                .end().filter("[href='#"+id+"']").parent().addClass("active");
         }
     });
 

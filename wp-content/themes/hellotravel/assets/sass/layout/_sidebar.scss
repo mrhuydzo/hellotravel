@@ -40,24 +40,26 @@
 
 .categories_tours {
   @extend %reset-lst;
+  & > li {margin-bottom: 30px;
+    &:last-child {border: none}
+  }
   ul.children {
     @extend %reset-lst;
-    .cat-item {
+    .cat-item {border-bottom: solid 1px $color-border;
       &.current-cat {
-        font-weight: bold;
-        a {
-          color: $color-link;
-        }
+        a {color: $color-link;}
       }
+      &:last-child {border: none}
     }
   }
-  .cat-item {
-
+  .cat-item.cat-item-23,
+  .cat-item.cat-item-24 {
+    & > a {font-weight: bold}
   }
   a {
     font-size: $font-size-m;
     display: block;
-    border-bottom: solid 1px $color-border;
+
     padding: 10px 0;
     &:hover {text-indent: 5px}
   }
