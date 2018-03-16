@@ -248,8 +248,8 @@ function devvn_wp_corenavi($custom_query = null, $paged = null) {
 		'current' => max( 1, $paged ),
 		'total' => $total,
 		'mid_size' => '10', // Số trang hiển thị khi có nhiều trang trước khi hiển thị ...
-		'prev_text'    => __('Prev','devvn'),
-		'next_text'    => __('Next','devvn'),
+		'prev_text'    => __('<i class="fas fa-angle-left"></i>','devvn'),
+		'next_text'    => __('<i class="fas fa-angle-right"></i>','devvn'),
 	) );
 	if($total > 1) echo '</div>';
 }

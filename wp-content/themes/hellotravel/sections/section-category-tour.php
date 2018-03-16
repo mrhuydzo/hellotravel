@@ -9,7 +9,7 @@
             echo '<ul class="categories_tours">';
             $args_list = array(
                 'taxonomy' => 'tour-categories',
-                'hierarchical' => false,
+                'hierarchical' => true,
                 'title_li' => ''
             );
             echo wp_list_categories($args_list);

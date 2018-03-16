@@ -1,16 +1,17 @@
 .paging {text-align: center;margin: 20px 0;
   span,
-  a{color: $color-link;padding:3px;margin-right:5px;background:transparent;border:1px solid $color-link}
+  a{color: $color-link;padding:0 3px;margin-right:5px;background:#dedede;border:1px solid #dedede;display: inline-block;height: 30px;line-height: 30px;min-width: 30px;
+    @include border-radius(3px);
+  }
 
-  a:hover,
-  .current{background:$color-link;color:#fff;text-decoration:none}
+  a:hover {background:#fff;color:$color-link;text-decoration:none;border-color: $color-link}
+  .current{background:$color-link;color:$color-link;text-decoration:none;border-color: $color-link}
 
   .page-numbers,
   .current{color: $color-link;font-weight:bold}
 
   .current{color: #fff;}
 
-  .page-numbers{border:1px solid $color-link;padding: 8px; border-radius: 8px;}
 }
 
 

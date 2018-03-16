@@ -1302,25 +1302,35 @@ html.open_menu body {
   .paging span,
   .paging a {
     color: #f15a29;
-    padding: 3px;
+    padding: 0 3px;
     margin-right: 5px;
-    background: transparent;
-    border: 1px solid #f15a29; }
-  .paging a:hover,
+    background: #dedede;
+    border: 1px solid #dedede;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    min-width: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */ }
+  .paging a:hover {
+    background: #fff;
+    color: #f15a29;
+    text-decoration: none;
+    border-color: #f15a29; }
   .paging .current {
     background: #f15a29;
-    color: #fff;
-    text-decoration: none; }
+    color: #f15a29;
+    text-decoration: none;
+    border-color: #f15a29; }
   .paging .page-numbers,
   .paging .current {
     color: #f15a29;
     font-weight: bold; }
   .paging .current {
     color: #fff; }
-  .paging .page-numbers {
-    border: 1px solid #f15a29;
-    padding: 8px;
-    border-radius: 8px; }
 
 .sidebar_lst_item {
   margin-bottom: 20px;

@@ -56,18 +56,18 @@
                                     <p class="post_summary"><?php echo word_count(get_the_excerpt(), '35').'...'; ?></p>
                                     <div class="row d-flex align-items-center">
                                         <div class="col">
-                                            Chỉ từ: <span class="tour_price_old">
-                                                        <?php
-                                                            $priceOld = get_field( 'tour_price_old' );
-                                                            echo number_format( $priceOld, 0, "", "." );
-                                                        ?>
-                                                    </span>
+                                             <span class="tour_price_old">
+                                                <?php
+                                                    $priceOld = get_field( 'tour_price_old' );
+                                                    echo 'Chỉ từ: '.number_format( $priceOld, 0, "", "." ).' đ';
+                                                ?>
+                                             </span>
                                         </div>
                                         <div class="col">
                                             <strong class="tour_price_new">
 		                                        <?php
 		                                            $priceNew = get_field('tour_price_new');
-		                                            echo number_format($priceNew,0,"",".");
+		                                            echo number_format($priceNew,0,"",".").' đ';
 		                                        ?>
                                             </strong>
                                         </div>
