@@ -1253,26 +1253,75 @@ a {
   @media (min-width: 992px) {
     .navtop_lst {
       padding: 0px; } }
-  .navtop_lst li {
+  .navtop_lst > li {
     float: none;
-    padding: 10px 0; }
-    .navtop_lst li a {
+    padding: 10px 0;
+    position: relative; }
+    .navtop_lst > li a {
       font-size: 18px;
       color: #fff; }
       @media (min-width: 992px) {
-        .navtop_lst li a {
+        .navtop_lst > li a {
           color: inherit;
           float: none; } }
-      .navtop_lst li a:hover {
+      .navtop_lst > li a:hover {
         color: #f15a29; }
-    .navtop_lst li.current-menu-item a {
+    .navtop_lst > li.current-menu-item a {
       color: #f15a29; }
-    .navtop_lst li i {
+    .navtop_lst > li i {
       margin-right: 5px; }
     @media (min-width: 992px) {
-      .navtop_lst li {
+      .navtop_lst > li {
         float: left;
-        padding: 0 18px; } }
+        padding: 15px 20px; } }
+    .navtop_lst > li:hover .sub-menu {
+      opacity: 1;
+      visibility: visible;
+      top: 60px; }
+
+ul.sub-menu {
+  background: transparent;
+  position: inherit;
+  top: inherit;
+  right: inherit;
+  visibility: inherit;
+  opacity: inherit;
+  min-width: inherit;
+  padding: inherit;
+  margin: 0; }
+  @media (min-width: 992px) {
+    ul.sub-menu {
+      background: #fff;
+      position: absolute;
+      z-index: 1;
+      top: 30px;
+      right: 0;
+      padding: 15px;
+      visibility: hidden;
+      opacity: 0;
+      min-width: 200px;
+      list-style: none;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; } }
+  ul.sub-menu li {
+    float: none;
+    border: none;
+    padding: 5px 0; }
+    @media (min-width: 992px) {
+      ul.sub-menu li {
+        border-bottom: solid 1px #e5e5e5; } }
+    ul.sub-menu li:last-child {
+      border: none; }
+    ul.sub-menu li a {
+      white-space: nowrap;
+      display: block;
+      font-size: 16px; }
+      ul.sub-menu li a:hover {
+        text-indent: 5px; }
 
 .overlay {
   background: rgba(0, 0, 0, 0.3);

@@ -25,7 +25,7 @@
 	    <?php if( $the_query->have_posts() ): ?>
             <div class="row">
 	            <?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
-                    <article class="col-6 post_item" id="post_item_<?php the_id();?>">
+                    <article class="col-sm-6 post_item" id="post_item_<?php the_id();?>">
                         <div class="post_item_inner">
                             <figure class="post_thumb">
                                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="post_thumb_link">
