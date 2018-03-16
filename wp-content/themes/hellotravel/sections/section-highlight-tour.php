@@ -59,7 +59,9 @@
                                              <span class="tour_price_old">
                                                 <?php
                                                     $priceOld = get_field( 'tour_price_old' );
-                                                    echo 'Chỉ từ: '.number_format( $priceOld, 0, "", "." ).' đ';
+                                                    if(isset($priceOld) && !empty($priceOld)) {
+	                                                    echo 'Chỉ từ: '.number_format( $priceOld, 0, "", "." ).' đ';
+                                                    }
                                                 ?>
                                              </span>
                                         </div>
@@ -67,7 +69,9 @@
                                             <strong class="tour_price_new">
 		                                        <?php
 		                                            $priceNew = get_field('tour_price_new');
-		                                            echo number_format($priceNew,0,"",".").' đ';
+		                                            if(isset($priceNew) && !empty($priceNew)){
+			                                            echo number_format($priceNew,0,"",".").' đ';
+                                                    }
 		                                        ?>
                                             </strong>
                                         </div>

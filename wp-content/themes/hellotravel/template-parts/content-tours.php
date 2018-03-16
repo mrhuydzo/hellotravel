@@ -42,14 +42,18 @@
                 <div class="right col-md-4">
                     <div class="post_tour_price-old">
 	                    <?php
-	                        $priceOld = get_field( 'tour_price_old' );
-	                        echo 'Chỉ từ: '.number_format( $priceOld, 0, "", "." ).' đ';
+                            $priceOld = get_field( 'tour_price_old' );
+                            if ( isset( $priceOld ) && ! empty( $priceOld ) ) {
+                                echo 'Chỉ từ: ' . number_format( $priceOld, 0, "", "." ) . ' đ';
+                            }
 	                    ?>
                     </div>
                     <div class="post_tour_price-new">
 	                    <?php
-	                        $priceNew = get_field('tour_price_new');
-	                        echo number_format($priceNew,0,"",".").' đ';
+                            $priceNew = get_field( 'tour_price_new' );
+                            if ( isset( $priceNew ) && ! empty( $priceNew ) ) {
+                                echo number_format( $priceNew, 0, "", "." ) . ' đ';
+                            }
 	                    ?>
                     </div>
                     <a class="post_tour_order" href="<?php the_permalink(); ?>" title="Đặt Tour">Đặt Tour</a>
