@@ -46,13 +46,18 @@
   &:hover {color: $color-text}
 }
 
-.post_thumb {display: block;margin: 0}
+.post_thumb {display: block;margin: 0;position: relative}
 .post_thumb_link {display: block;
   img {width: 100%;//max-width: inherit;
     @media (min-width: $bp-m) {
         //width: auto;max-width: 100%;
     }
   }
+}
+.label_color {color: #fff;font-size: $font-size-m;position: absolute;top: 10px;left: -5px;display: block;width: 90px;height: 50px;line-height: 50px;text-align: center;
+  &-green {background-color: #0fac22}
+  &-red {background-color: #ed1c24}
+  &-orange {background-color: $color-link}
 }
 
 

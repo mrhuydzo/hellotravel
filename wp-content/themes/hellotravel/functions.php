@@ -247,7 +247,7 @@ function devvn_wp_corenavi($custom_query = null, $paged = null) {
 		'format' => '?paged=%#%',
 		'current' => max( 1, $paged ),
 		'total' => $total,
-		'mid_size' => '10', // Số trang hiển thị khi có nhiều trang trước khi hiển thị ...
+		'mid_size' => '5', // Số trang hiển thị khi có nhiều trang trước khi hiển thị ...
 		'prev_text'    => __('<i class="fas fa-angle-left"></i>','devvn'),
 		'next_text'    => __('<i class="fas fa-angle-right"></i>','devvn'),
 	) );

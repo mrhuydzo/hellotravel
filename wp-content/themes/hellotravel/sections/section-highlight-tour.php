@@ -1,8 +1,6 @@
 <div class="section_main" id="section_highlight_tour">
     <div class="section_header">
-        <h2 class="section_title">
-            <a href="" title="Các tour nổi bật">Các tour nổi bật</a>
-        </h2>
+        <h2 class="section_title">Các tour nổi bật</h2>
     </div>
     <div class="section_body">
 	    <?php
@@ -28,6 +26,31 @@
                     <article class="col-sm-6 post_item" id="post_item_<?php the_id();?>">
                         <div class="post_item_inner">
                             <figure class="post_thumb">
+
+                                <?php
+                                    $numberSale = get_field('tour_label_name');
+                                    $colorLabel = get_field_object( 'tour_label_color');
+                                    $result = '';
+
+                                    if ($colorLabel["value"]) {
+                                        switch ($colorLabel["value"]) {
+                                            case 'Red':
+                                                $result = 'label_color-red';
+                                                break;
+                                            case 'Green':
+                                                $result = 'label_color-green';
+                                                break;
+                                            default:
+                                                $result = 'label_color-orange';
+                                                break;
+                                        }
+                                    }
+                                    if (isset($numberSale ) && !empty($numberSale )) {
+                                        echo '<strong class="label_color '.$result.'">'.$numberSale. '</strong>';
+                                    }
+                                ?>
+
+
                                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="post_thumb_link">
 			                        <?php if ( has_post_thumbnail()){
 				                        the_post_thumbnail('thumbnail');

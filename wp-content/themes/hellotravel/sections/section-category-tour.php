@@ -1,8 +1,6 @@
 <div class="section_main" id="section_lastest_tour">
 	<div class="section_header">
-		<h2 class="section_title">
-			<a href="" title="Tour mới nhất">Danh mục tour</a>
-		</h2>
+		<h2 class="section_title">Danh mục tour</h2>
 	</div>
 	<div class="section_body">
 		<?php

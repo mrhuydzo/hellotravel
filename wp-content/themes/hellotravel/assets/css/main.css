@@ -722,12 +722,31 @@ a {
 
 .post_thumb {
   display: block;
-  margin: 0; }
+  margin: 0;
+  position: relative; }
 
 .post_thumb_link {
   display: block; }
   .post_thumb_link img {
     width: 100%; }
+
+.label_color {
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  top: 10px;
+  left: -5px;
+  display: block;
+  width: 90px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center; }
+  .label_color-green {
+    background-color: #0fac22; }
+  .label_color-red {
+    background-color: #ed1c24; }
+  .label_color-orange {
+    background-color: #f15a29; }
 
 .post_detail_header {
   margin: 0 0 15px; }

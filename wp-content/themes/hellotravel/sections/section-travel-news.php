@@ -1,7 +1,15 @@
 <div class="section_main" id="section_travel_news">
     <div class="section_header">
         <h2 class="section_title">
-            <a href="" title="Tin du lịch">Tin du lịch</a>
+	        <?php
+	        // Get the ID of a given category
+	        $category_id = get_cat_ID( 'tin tuc' );
+
+	        // Get the URL of this category
+	        $category_link = get_category_link( $category_id );
+	        ?>
+
+            <a href="<?php echo esc_url($category_link) ?>" title="Tin du lịch">Tin du lịch</a>
         </h2>
     </div>
     <div class="section_body">
