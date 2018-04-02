@@ -28,9 +28,9 @@
                     <li class="sidebar_lst_item">
                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="sidebar_lst_thumb">
 	                        <?php if ( has_post_thumbnail()){
-		                        the_post_thumbnail();
+		                        the_post_thumbnail('medium');
 	                        } else { ?>
-                                <img src="http://via.placeholder.com/100x100" alt="<?php the_title();?>" class="sidebar_lst_img" />
+                                <img src="http://via.placeholder.com/300x300" alt="<?php the_title();?>" class="sidebar_lst_img" />
 	                        <?php } ?>
                         </a>
                         <div class="sidebar_lst_content">

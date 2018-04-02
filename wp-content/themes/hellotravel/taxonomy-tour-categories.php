@@ -21,9 +21,9 @@
                                     <figure class="col-sm-4 post_thumb">
                                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="row post_thumb_link">
 											<?php if ( has_post_thumbnail() ) {
-												the_post_thumbnail( 'thumbnail' );
+												the_post_thumbnail( 'medium' );
 											} else { ?>
-                                                <img src="http://via.placeholder.com/200x200" alt="<?php the_title(); ?>" class="post_thumb_img"/>
+                                                <img src="http://via.placeholder.com/600x600" alt="<?php the_title(); ?>" class="post_thumb_img"/>
 											<?php } ?>
                                         </a>
                                     </figure>

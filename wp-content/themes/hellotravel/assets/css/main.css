@@ -726,7 +726,11 @@ a {
   position: relative; }
 
 .post_thumb_link {
-  display: block; }
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
   .post_thumb_link img {
     width: 100%; }
 
@@ -1420,9 +1424,13 @@ html.open_menu body {
     border: none; }
 
 .sidebar_lst_thumb {
-  display: block;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
   width: 70px;
-  margin-right: 15px; }
+  margin-right: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .sidebar_lst_img {
   width: 100%; }

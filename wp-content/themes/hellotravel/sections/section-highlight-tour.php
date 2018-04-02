@@ -1,6 +1,7 @@
 <div class="section_main" id="section_highlight_tour">
     <div class="section_header">
-        <h2 class="section_title">Các tour nổi bật</h2>
+        <h2 class="section_title">
+            Các tour nổi bật</h2>
     </div>
     <div class="section_body">
 	    <?php
@@ -53,7 +54,7 @@
 
                                 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="post_thumb_link">
 			                        <?php if ( has_post_thumbnail()){
-				                        the_post_thumbnail('thumbnail');
+				                        the_post_thumbnail('');
 			                        } else { ?>
                                         <img src="http://via.placeholder.com/200x200" alt="<?php the_title();?>" class="post_thumb_img" />
 			                        <?php } ?>
