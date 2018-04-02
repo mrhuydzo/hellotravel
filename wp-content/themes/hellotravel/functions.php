@@ -318,3 +318,4 @@ function create_taxonomies() {
 
 }
 add_action('init', 'create_taxonomies');
+error_reporting(E_ERROR | E_PARSE);
