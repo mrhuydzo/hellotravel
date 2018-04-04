@@ -732,7 +732,9 @@ a {
   align-items: center;
   height: 100%; }
   .post_thumb_link img {
-    width: 100%; }
+    width: 100%;
+    object-fit: cover;
+    height: 100%; }
 
 .label_color {
   color: #fff;

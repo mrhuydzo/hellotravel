@@ -49,7 +49,7 @@
 .post_thumb {display: block;margin: 0;position: relative}
 .post_thumb_link {background: rgba(0,0,0, 0.4);display: flex;justify-content: center;align-items: center;height: 100%;
 
-  img {width: 100%;//max-width: inherit;
+  img {width: 100%;object-fit: cover;height: 100%;
     @media (min-width: $bp-m) {
         //width: auto;max-width: 100%;
     }
