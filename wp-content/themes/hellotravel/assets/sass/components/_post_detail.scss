@@ -27,7 +27,7 @@
     position: fixed;top: 0;z-index: 999;width: 100%;
   }
   .post_scroll_item {display: inline-block;color: $color-text;padding: 0 5px;
-    a {
+    a { display: block;height: 100%;
       &:hover {color: $color-link}
     }
     &.active a{color: $color-link}
@@ -43,7 +43,7 @@
 .post_detail_subtitle {@extend %title-b;margin-bottom: 15px}
 
 .post_scroll_content {margin-bottom: 30px}
-.post_scroll_body {}
+.post_scroll_body {min-height: 200px}
 .post_toggle {margin-bottom: 1px}
 .post_toggle_header {background: #fff;padding: 0 20px;margin: 0}
 .post_toggle_title {font-size: $font-size-s;color: $color-text;height: 60px;line-height: 60px;font-weight: bold;display: block;outline: none}

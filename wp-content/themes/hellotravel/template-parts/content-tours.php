@@ -72,9 +72,9 @@
                 <div class="post_scroll_item">
                     <a href="#post_detail_schedule" rel="nofollow" title="Lịch trình">Lịch trình</a>
                 </div>
-                <div class="post_scroll_item">
+                <!--<div class="post_scroll_item">
                     <a href="#post_detail_map" rel="nofollow" title="Bản đồ">Bản đồ</a>
-                </div>
+                </div>-->
                 <div class="post_scroll_item">
                     <a href="#post_detail_picture" rel="nofollow" title="Ảnh">Ảnh</a>
                 </div>
@@ -130,16 +130,16 @@
 					?>
                 </div>
             </div>
-            <div class="post_scroll_content" id="post_detail_map">
+           <!-- <div class="post_scroll_content" id="post_detail_map">
                 <h3 class="post_detail_subtitle">Bản đồ</h3>
                 <div class="post_scroll_body">
 					<?php
-					$image = get_field( 'map' );
-					if ( ! empty( $image ) ): ?>
-                        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>"/>
-					<?php endif; ?>
+/*					    $image = get_field( 'map' );
+					    if ( ! empty( $image ) ): */?>
+                        <img src="<?php /*echo $image['url']; */?>" alt="<?php /*echo $image['alt']; */?>"/>
+					<?php /*endif; */?>
                 </div>
-            </div>
+            </div>-->
             <div class="post_scroll_content" id="post_detail_picture">
                 <h3 class="post_detail_subtitle">Ảnh</h3>
                 <div class="post_scroll_body">

@@ -810,8 +810,11 @@ a {
     display: inline-block;
     color: #636363;
     padding: 0 5px; }
-    .post_scroll .post_scroll_item a:hover {
-      color: #f15a29; }
+    .post_scroll .post_scroll_item a {
+      display: block;
+      height: 100%; }
+      .post_scroll .post_scroll_item a:hover {
+        color: #f15a29; }
     .post_scroll .post_scroll_item.active a {
       color: #f15a29; }
     @media (min-width: 480px) {
@@ -823,6 +826,9 @@ a {
 
 .post_scroll_content {
   margin-bottom: 30px; }
+
+.post_scroll_body {
+  min-height: 200px; }
 
 .post_toggle {
   margin-bottom: 1px; }
