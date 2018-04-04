@@ -1429,13 +1429,20 @@ html.open_menu body {
   background: rgba(0, 0, 0, 0.4);
   display: flex;
   width: 70px;
+  height: 70px;
   margin-right: 15px;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .sidebar_lst_thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
 
 .sidebar_lst_img {
-  width: 100%; }
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 .sidebar_lst_content {
   flex: 1; }
