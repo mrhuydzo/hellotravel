@@ -17,7 +17,7 @@
 */
 ?>
 <?php get_header(); ?>
-	<div id="page_home" class="main_container">
+	<div id="page_tour" class="main_container">
         <main id="main">
             <div class="container">
                 <div class="row">

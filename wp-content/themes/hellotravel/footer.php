@@ -21,10 +21,10 @@
                         <div class="col-sm-6 col-md-3 footer_column">
                             <h3 class="footer_column_title">Hoạt động</h3>
                             <ul class="footer_link">
-                                <li><a href="" title="Về chúng tôi">Về chúng tôi</a></li>
-                                <li><a href="" title="Phản hồi">Phản hồi</a></li>
-                                <li><a href="" title="Tuyển dụng">Tuyển dụng</a></li>
-                                <li><a href="" title="Hoạt động">Hoạt động</a></li>
+                                <li><a href="/ve-chung-toi/" title="Về chúng tôi">Về chúng tôi</a></li>
+                                <li><a href="/phan-hoi/" title="Phản hồi">Phản hồi</a></li>
+                                <li><a href="/tuyen-dung/" title="Tuyển dụng">Tuyển dụng</a></li>
+                                <li><a href="/hoat-dong/" title="Hoạt động">Hoạt động</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-6 col-md-3 footer_column">
@@ -32,10 +32,10 @@
                                 <h3 class="footer_column_title">Thông tin hữu ích</h3>
                                 <div>
                                     <ul class="footer_link">
-                                        <li><a href="" title="Hình thức thanh toán">Hình thức thanh toán</a></li>
-                                        <li><a href="" title="Chính sách hoàn hủy">Chính sách hoàn hủy</a></li>
-                                        <li><a href="" title="Điều khoản sử dụng">Điều khoản sử dụng</a></li>
-                                        <li><a href="" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+                                        <li><a href="/hinh-thuc-thanh-toan" title="Hình thức thanh toán">Hình thức thanh toán</a></li>
+                                        <li><a href="/chinh-sach-hoan-huy" title="Chính sách hoàn hủy">Chính sách hoàn hủy</a></li>
+                                        <li><a href="/dieu-khoan-su-dung" title="Điều khoản sử dụng">Điều khoản sử dụng</a></li>
+                                        <li><a href="/chinh-sach-bao-mat" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -44,9 +44,9 @@
                             <h3 class="footer_column_title">Danh mục sản phẩm</h3>
                             <div>
                                 <ul class="footer_link">
-                                    <li><a href="" title="Tour Nội địa">Tour Nội địa</a></li>
-                                    <li><a href="" title="Tour nước ngoài">Tour nước ngoài</a></li>
-                                    <li><a href="" title="Tour giá rẻ">Tour giá rẻ</a></li>
+                                    <li><a href="/tour-noi-dia" title="Tour Nội địa">Tour Nội địa</a></li>
+                                    <li><a href="/tour-nuoc-ngoai" title="Tour nước ngoài">Tour nước ngoài</a></li>
+                                    <li><a href="/tour-gia-re" title="Tour giá rẻ">Tour giá rẻ</a></li>
                                     <li><a href="" title="Hành trình xa cao cấp">Hành trình xa cao cấp</a></li>
                                     <li><a href="" title="Gói Trăng Mật">Gói Trăng Mật</a></li>
                                 </ul>
