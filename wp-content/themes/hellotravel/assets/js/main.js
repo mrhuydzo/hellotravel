@@ -161,6 +161,7 @@ jQuery(document).ready(function($){
         }
     });
 
+
     //Lazy
     $('.post_thumb_link img').Lazy();
 

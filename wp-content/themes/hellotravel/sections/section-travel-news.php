@@ -34,7 +34,7 @@
 	                        <?php } ?>
                         </a>
                         <div class="sidebar_lst_content">
-                            <h3 class="sidebar_lst_title"><a href=""<?php the_permalink(); ?> title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+                            <h3 class="sidebar_lst_title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
                             <a href="<?php the_permalink(); ?>" class="sidebar_lst_btn" title="<?php the_title(); ?>">Chi tiết</a>
                         </div>
                     </li>

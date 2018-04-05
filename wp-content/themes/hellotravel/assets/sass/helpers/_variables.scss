@@ -55,10 +55,10 @@ $bp-xl: 1440px;
 .page_main {min-height: 1000px}
 
 //Title
-%title-common {color: #000;position: relative;font-weight: bold;;margin: 0}
-%title-s {@extend  %title-common; line-height: 1.2;font-size: $font-size-s}
-%title-m {@extend  %title-common; line-height: 1;font-size: $font-size-m}
-%title-b {@extend  %title-common; line-height: 1.2;font-size: $font-size-bb}
+%title-common {color: #000;position: relative;font-weight: bold;;margin: 0;line-height: 1.4;}
+%title-s {@extend  %title-common; font-size: $font-size-s}
+%title-m {@extend  %title-common; font-size: $font-size-m}
+%title-b {@extend  %title-common; font-size: $font-size-bb}
 
 //Post 2 col
 %post_2col {display: flex;flex-direction: row;flex-wrap: wrap;}
