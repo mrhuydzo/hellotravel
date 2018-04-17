@@ -171,29 +171,7 @@
                 </div>
             </div>-->
             <div class="share_link">
-                <h5 class="share_title">Chia sẻ với: </h5>
-                <div class="socializer a sr-32px sr-opacity sr-icon-white sr-pad">
-                    <span class="sr-facebook">
-                        <a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.aakashweb.com%2Fapps%2Fsocial-buttons-generator%2F&amp;t=Free%20social%20buttons%20sharebar%20generator%20-%20Aakash%20Web" target="_blank" title="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </span>
-                    <span class="sr-googleplus">
-                        <a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.aakashweb.com%2Fapps%2Fsocial-buttons-generator%2F" target="_blank" title="Google Plus">
-                            <i class="fab fa-google-plus-g"></i>
-                        </a>
-                    </span>
-                    <span class="sr-email">
-                        <a href="mailto:?to=&amp;subject=Free%20social%20buttons%20sharebar%20generator%20-%20Aakash%20Web&amp;body=%20-%20https%3A%2F%2Fwww.aakashweb.com%2Fapps%2Fsocial-buttons-generator%2F" target="_blank" title="Email">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-                    </span>
-                    <span class="sr-rss">
-                        <a href="" target="_blank" title="RSS">
-                            <i class="fa fa-rss"></i>
-                        </a>
-                    </span>
-                </div>
+                <div class="fb-share-button" data-href="<?php echo esc_url( get_permalink() )?>" data-layout="button_count" data-size="large" data-mobile-iframe="true"></div>
             </div>
 
             <div class="fb-comments" data-href="<?php echo esc_url( get_permalink() )?>" data-numposts="5"></div>

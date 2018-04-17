@@ -44,8 +44,8 @@
                             <h3 class="footer_column_title">Danh mục sản phẩm</h3>
                             <div>
                                 <ul class="footer_link">
-                                    <li><a href="/tour-noi-dia" title="Tour Nội địa">Tour Nội địa</a></li>
-                                    <li><a href="/tour-nuoc-ngoai" title="Tour nước ngoài">Tour nước ngoài</a></li>
+                                    <li><a href="tours/tour-trong-nuoc/" title="Tour trong nước">Tour trong nước</a></li>
+                                    <li><a href="tours/tour-nuoc-ngoai" title="Tour nước ngoài">Tour nước ngoài</a></li>
                                     <li><a href="/tour-gia-re" title="Tour giá rẻ">Tour giá rẻ</a></li>
                                     <li><a href="" title="Hành trình xa cao cấp">Hành trình xa cao cấp</a></li>
                                     <li><a href="" title="Gói Trăng Mật">Gói Trăng Mật</a></li>

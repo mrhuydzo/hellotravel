@@ -528,7 +528,8 @@ a {
   background: none; }
 
 #section_highlight_tour .post_item_inner {
-  background: #fff; }
+  background: #fff;
+  height: 100%; }
 
 #section_highlight_tour .post_info {
   padding: 15px; }
