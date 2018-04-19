@@ -5,8 +5,13 @@
   }
 }
 #logo {margin: 0;
-  @media (min-width: $bp-m) {
-
+  img { max-width: 50%;
+    @media (min-width: $bp-sm) {
+      max-width: 70%;
+    }
+    @media (min-width: $bp-m) {
+      max-width: 100%;
+    }
   }
 }
 .site-description {position: absolute;text-indent: -9999em}

@@ -84,7 +84,7 @@
                     </div>
                     <!--//Logo-->
                 </div>
-                <div class="col-2 col-lg-9 align-self-center">
+                <div class="col-2 col-lg-9 d-flex align-items-center justify-content-end">
                     <!-- #site-navigation -->
                     <a id="navtop_icon" class="menu-toggle" rel="nofollow">
 		                <?php /*esc_html_e( 'Primary Menu', 'travel' ); */?>

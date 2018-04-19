@@ -438,7 +438,7 @@ template {
 .no-padding {
   padding: 0; }
 
-.post_toggle_body ul, .footer_link, .footer_connect, .navtop_lst, .sidebar_lst, .categories_tours, .categories_tours ul.children {
+.post_toggle_body ul, .footer_link, .footer_connect, .navtop_lst, ul.sub-menu, .sidebar_lst, .categories_tours, .categories_tours ul.children {
   list-style: none;
   margin: 0;
   padding: 0; }
@@ -1157,6 +1157,14 @@ a {
 
 #logo {
   margin: 0; }
+  #logo img {
+    max-width: 50%; }
+    @media (min-width: 768px) {
+      #logo img {
+        max-width: 70%; } }
+    @media (min-width: 992px) {
+      #logo img {
+        max-width: 100%; } }
 
 .site-description {
   position: absolute;
@@ -1203,7 +1211,7 @@ a {
   border: none;
   margin: 0;
   width: 36px;
-  height: 36px;
+  height: 16px;
   position: relative;
   cursor: pointer;
   display: none;
@@ -1228,11 +1236,11 @@ a {
     #navtop_icon span:nth-child(1) {
       top: 0px; }
     #navtop_icon span:nth-child(2) {
-      top: 10px; }
+      top: 7px; }
     #navtop_icon span:nth-child(3) {
-      top: 10px; }
+      top: 7px; }
     #navtop_icon span:nth-child(4) {
-      top: 20px; }
+      top: 14px; }
   #navtop_icon.open {
     z-index: 9999; }
   #navtop_icon.open span:nth-child(1) {
@@ -1298,6 +1306,19 @@ a {
     float: none;
     padding: 10px 0;
     position: relative; }
+    .navtop_lst > li.menu-item-has-children > a:before {
+      content: '';
+      background: url("https://use.fontawesome.com/releases/v5.0.10/svgs/solid/chevron-down.svg") no-repeat 50% 50%;
+      background-size: cover;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 10px;
+      height: 10px;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%); }
     .navtop_lst > li a {
       font-size: 18px;
       color: #fff; }
@@ -1307,7 +1328,7 @@ a {
           float: none; } }
       .navtop_lst > li a:hover {
         color: #f15a29; }
-    .navtop_lst > li.current-menu-item a {
+    .navtop_lst > li.current-menu-item > a {
       color: #f15a29; }
     .navtop_lst > li i {
       margin-right: 5px; }
@@ -1328,7 +1349,7 @@ ul.sub-menu {
   visibility: inherit;
   opacity: inherit;
   min-width: inherit;
-  padding: inherit;
+  padding: 0 0 0 15px;
   margin: 0; }
   @media (min-width: 992px) {
     ul.sub-menu {
