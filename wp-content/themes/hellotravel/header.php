@@ -16,22 +16,36 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0"/>
-    <meta name="author" content="" />
-    <meta name="article:author" content="" />
+    <meta name="article:author" content="<?php echo get_bloginfo('name');?>" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta itemprop="description" property="og:description" content="" />
-    <meta property="og:site_name" content="" />
-    <meta property="og:locale" content="vi_VN" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="" />
-    <meta property="og:title" content="" />
-    <meta property="og:image" content="" />
     <meta itemprop="image" content=""/>
     <meta itemprop="datePublished" content=""/>
     <meta name="msvalidate.01" content="" />
     <meta property="article:published_time" content="" />
     <meta name="googlebot" content="noarchive,index,follow" />
     <meta name="robots" content="index,follow" />
+
+    <!-- For Google -->
+    <meta name="description" content="<?php echo get_bloginfo('description');?>" />
+    <meta name="keywords" content="travel,du lich, tour nuoc ngoai, tour trong nuoc, hello world , keep traveling, tin tuc du lich" />
+    <meta name="author" content="<?php echo get_bloginfo('name');?>" />
+    <meta name="copyright" content="<?php echo get_bloginfo('name');?>" />
+    <meta name="application-name" content="<?php echo get_bloginfo('name');?>" />
+
+    <!-- For Facebook -->
+    <meta property="og:description" itemprop="description" content="<?php echo get_bloginfo('description');?>" />
+    <meta property="og:site_name" content="<?php echo get_bloginfo('name');?>" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="<?php echo get_bloginfo('url');?>" />
+    <meta property="og:title" content="<?php echo get_bloginfo('description');?>" />
+    <meta property="og:image" content="http://helloworldtravel.vn/wp-content/uploads/2018/02/cropped-logo-1.png" />
+
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="<?php echo get_bloginfo('name');?>" />
+    <meta name="twitter:description" content="<?php echo get_bloginfo('description');?>" />
+    <meta name="twitter:image" content="http://helloworldtravel.vn/wp-content/uploads/2018/02/cropped-logo-1.png" />
 
     <link rel="canonical" href=""/>
     <link rel="shortcut icon" href="" type="image/x-icon" />

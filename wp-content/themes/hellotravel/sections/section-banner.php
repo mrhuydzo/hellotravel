@@ -2,6 +2,7 @@
     <div class="banner_slide_home">
 		<?php
 		// check if the repeater field has rows of data
+		// check if the repeater field has rows of data
 		if( have_rows('slide_image_home') ):
 			// loop through the rows of data
 			global $post;

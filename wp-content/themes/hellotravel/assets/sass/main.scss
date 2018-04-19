@@ -28,6 +28,7 @@
 @import "components/_news_related";
 
 // Layout related stylesheets
+// Layout related stylesheets
 @import "layout/_footer";
 @import "layout/_grid";
 @import "layout/_header";
@@ -48,4 +49,6 @@
 @import "vendors/slick-theme";
 
 .main_container {padding: 30px 0}
-body {background: $color-secondary;font-family: $font-base;font-weight: 400; color: $color-text;font-size: 14px}
+body {background: $color-secondary;font-family: $font-base;font-weight: 400; color: $color-text;font-size: 14px;
+  transition: all .3s ease;
+}

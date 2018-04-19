@@ -122,7 +122,7 @@ add_action( 'widgets_init', 'travel_widgets_init' );
 function travel_scripts() {
 	wp_enqueue_style( 'travel-style', get_stylesheet_uri() );
 	wp_register_style('travel-animate', get_template_directory_uri().'/assets/css/animate.min.css','all');
-	wp_register_style('travel-style-main', get_template_directory_uri().'/assets/css/main.css?v='.time(),'all');
+	wp_register_style('travel-style-main', get_template_directory_uri().'/assets/css/main.min.css?v='.time(),'all');
 
 	wp_enqueue_style( 'travel-animate');
 	wp_enqueue_style( 'travel-style-main');

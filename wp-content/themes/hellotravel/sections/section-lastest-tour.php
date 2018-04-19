@@ -5,7 +5,7 @@
         </h2>
     </div>
     <div class="section_body">
-        <ul class="sidebar_lst" id="">
+        <ul class="sidebar_lst">
 		    <?php
 		    $args = array(
 			    'post_type' => 'tours',
